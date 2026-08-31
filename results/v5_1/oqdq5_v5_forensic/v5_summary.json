@@ -1,0 +1,64 @@
+{
+  "version": "v5_forensic",
+  "n_train": 95609,
+  "n_test": 23902,
+  "base_crossfit_qwk": 0.4785557300408927,
+  "forensic_crossfit_qwk": 0.4785692425454088,
+  "forensic_gain": 1.3512504516088875e-05,
+  "use_lookup": false,
+  "lookup_full_policy": {
+    "name": "NONE",
+    "alpha": 0.0,
+    "qwk": 0.4810379272844967,
+    "thr": [
+      1.5411414874478027,
+      2.0177674940612547,
+      2.4541314704280515
+    ]
+  },
+  "honest_crossfit_qwk": 0.4785557300408927,
+  "unique_id_diagnostic_qwk": 0.47975324147348586,
+  "global_diagnostic_qwk": 0.4810379272844967,
+  "boundary_auc": {
+    "auc_gt1": 0.7789816656145676,
+    "auc_gt2": 0.8724807060310954,
+    "auc_gt3": 0.8085139605417683
+  },
+  "final_thresholds": [
+    1.5411414874478027,
+    2.0177674940612547,
+    2.4541314704280515
+  ],
+  "final_model_weights": [
+    0.2,
+    0.2,
+    0.6000000000000001
+  ],
+  "model_breakthrough_ge_top1": false,
+  "mapping_correction_present": true,
+  "primary_submission_mode": "official_sample_row_order",
+  "primary_submission_rows": 23902,
+  "unique_testid_reference_rows": 23666,
+  "mapping_audit": {
+    "n_test_rows": 23902,
+    "n_sample_rows": 23902,
+    "sample_id_unique": true,
+    "test_id_unique": false,
+    "test_unique_id_count": 23666,
+    "sample_matches_concat_row_sequence": true,
+    "sample_id_equals_test_id_rate": 0.0,
+    "sample_id_min": 95610,
+    "sample_id_max": 119511,
+    "test_id_min": 3,
+    "test_id_max": 118325
+  },
+  "notes": [
+    "No external data or external labels used.",
+    "Official sample_submission row order is primary submission contract.",
+    "test_final.id is treated as a feature/grouping identifier, not silently as the submission key.",
+    "Quasi-key lookup is fold-safe and used only if honest OOF gain clears the configured gate.",
+    "Continuous sentinels are separated as NaN + flags for numeric models.",
+    "Low-card raw survey codes are true CatBoost categoricals.",
+    "No scaling, SMOTE, generic median imputation, or feature explosion."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": "v2",
+  "competition": "Objective Quest DATAQUEST 5.0",
+  "v1_public_lb_reference": 0.48003,
+  "v1_crossfit_oof_reference": 0.479662,
+  "current_top1_public_reference": 0.48853,
+  "n_train": 95609,
+  "n_test_raw": 23902,
+  "n_test_unique_id": 23666,
+  "n_repeats": 2,
+  "n_folds": 5,
+  "valid_branches": [
+    "lgb_core",
+    "xgb_core",
+    "cat_core",
+    "lgb_categorical",
+    "xgb_categorical",
+    "lgb_monotonic",
+    "lgb_multiclass_expected",
+    "lgb_cumulative_ordinal"
+  ],
+  "core_global_qwk": 0.4810146458698574,
+  "core_crossfit_qwk": 0.4797350293225223,
+  "final_global_qwk": 0.4815874755356633,
+  "final_crossfit_qwk": 0.48136694278002734,
+  "final_thresholds": [
+    1.5584748131597548,
+    2.0085256845284345,
+    2.5389840306382645
+  ],
+  "selected_sidecars": [
+    {
+      "branch": "lgb_cumulative_ordinal",
+      "alpha": 0.45,
+      "score": 0.48082195118508764,
+      "gain": 0.0010869218625653154,
+      "residual_corr_to_current": 0.9975072295867102
+    },
+    {
+      "branch": "xgb_categorical",
+      "alpha": 0.05,
+      "score": 0.48136694278002734,
+      "gain": 0.0005449915949397033,
+      "residual_corr_to_current": 0.9927485577757053
+    }
+  ],
+  "submission_rows": 23666,
+  "notes": [
+    "2x5 repeated StratifiedGroupKFold groups=id",
+    "Nested fold-safe feature selection; explainability probe does not control final outer folds",
+    "Raw + dictionary-valid semantic + nonstandard survey-code representation",
+    "Native categorical LightGBM/XGBoost candidate branches",
+    "Monotonic semantic LightGBM diversity branch",
+    "Multiclass expected-value and cumulative ordinal sidecars",
+    "No scaling, SMOTE, generic imputation, or survey_weight sample weighting",
+    "Submission aggregated to one row per unique test_final.id (23,666) before thresholding"
+  ]
+}

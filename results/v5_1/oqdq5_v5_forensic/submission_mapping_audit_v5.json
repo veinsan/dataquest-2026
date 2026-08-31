@@ -1,0 +1,13 @@
+{
+  "n_test_rows": 23902,
+  "n_sample_rows": 23902,
+  "sample_id_unique": true,
+  "test_id_unique": false,
+  "test_unique_id_count": 23666,
+  "sample_matches_concat_row_sequence": true,
+  "sample_id_equals_test_id_rate": 0.0,
+  "sample_id_min": 95610,
+  "sample_id_max": 119511,
+  "test_id_min": 3,
+  "test_id_max": 118325
+}

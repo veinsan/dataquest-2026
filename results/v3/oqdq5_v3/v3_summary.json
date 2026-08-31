@@ -1,0 +1,48 @@
+{
+  "version": "v3",
+  "competition": "Objective Quest DATAQUEST 5.0",
+  "v1_public_lb_reference": 0.48003,
+  "v2_public_lb_reference": 0.48193,
+  "current_top1_reference": 0.61541,
+  "structural_gate": {
+    "ontology": false,
+    "paths": false,
+    "ordinal_te": true
+  },
+  "use_cat_dual": true,
+  "model_names": [
+    "lgb_struct",
+    "xgb_struct",
+    "cat_dual"
+  ],
+  "equal_crossfit_qwk": 0.4799484891517266,
+  "weighted_crossfit_qwk": 0.47944200156077643,
+  "use_weighted": false,
+  "final_weights": {
+    "lgb_struct": 0.3333333333333333,
+    "xgb_struct": 0.3333333333333333,
+    "cat_dual": 0.3333333333333333
+  },
+  "final_global_qwk": 0.48121124850370334,
+  "final_crossfit_qwk": 0.4799484891517266,
+  "final_unique_id_qwk": 0.4808455636835163,
+  "final_thresholds": [
+    1.5462437944584049,
+    2.009454733320437,
+    2.524962698611743
+  ],
+  "auc_gt1": 0.7792810249760862,
+  "auc_gt2": 0.872969883835675,
+  "auc_gt3": 0.8095721306914472,
+  "submission_rows": 23666,
+  "worth_last_slot": false,
+  "notes": [
+    "Observed-code ontology learned from raw fold data, not dictionary-valid-code truncation",
+    "Questionnaire skip/applicability states learned without target inside each fold",
+    "Fold-safe ordinal target encodings for high-signal coded categories",
+    "CatBoost dual numeric+categorical view gated by a cheap probe",
+    "Hard numeric feature budget <=175",
+    "Single 5-fold grouped CV; no repeated-CV sidecar explosion",
+    "Submission aggregated to 23,666 unique test_final.id rows before thresholding"
+  ]
+}

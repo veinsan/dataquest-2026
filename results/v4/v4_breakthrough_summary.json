@@ -1,0 +1,90 @@
+{
+  "config": {
+    "VERSION": "v4_breakthrough_discovery",
+    "TARGET": "life_satisfaction",
+    "ID_COL": "id",
+    "HOUSEHOLD_COL": "household_id",
+    "SEED": 42,
+    "N_FOLDS": 5,
+    "PROBE_FOLDS": [
+      0,
+      2,
+      3
+    ],
+    "CAL_FOLDS": 5,
+    "LOWCARD_MAX_UNIQUE": 120,
+    "CATBOOST_ITER": 3500,
+    "CATBOOST_PROBE_ITER": 1600,
+    "LGB_ITER": 3500,
+    "LGB_PROBE_ITER": 1600,
+    "EARLY_STOP": 150,
+    "LEARNING_RATE": 0.03,
+    "CAT_DEVICES": "0:1",
+    "RETRIEVAL_MAX_REF_PROBE": 45000,
+    "RETRIEVAL_MAX_REF_FULL": 80000,
+    "RETRIEVAL_CAT_TOP": 56,
+    "RETRIEVAL_CONT_TOP": 14,
+    "RETRIEVAL_SVD_DIM": 56,
+    "RETRIEVAL_K": 48,
+    "DEEP_EPOCHS_PROBE": 10,
+    "DEEP_EPOCHS_FULL": 18,
+    "DEEP_PATIENCE": 3,
+    "DEEP_BATCH": 1024,
+    "FINGERPRINT_RP_DIM": 24,
+    "PROMOTE_MIN_MEAN_GAIN": 0.015,
+    "PROMOTE_MIN_WINS": 3,
+    "PROMOTE_ABS_QWK": 0.52,
+    "KILL_MAX_MEAN_GAIN": 0.005,
+    "SUBMISSION_QWK_GATE": 0.61541,
+    "EXPECTED_TRAIN_ROWS": 95609,
+    "EXPECTED_TEST_ROWS": 23902,
+    "EXPECTED_UNIQUE_TEST_IDS": 23666,
+    "V1_PUBLIC_LB": 0.48003,
+    "V2_PUBLIC_LB": 0.48193,
+    "V1_CROSSFIT": 0.479662,
+    "V2_CROSSFIT": 0.481367
+  },
+  "probe_summary": [
+    {
+      "candidate": "catboost_allcat",
+      "mean_qwk": 0.474872655247183,
+      "mean_gain": 0.0029245632308672422,
+      "wins": 3,
+      "mean_auc_gt1_gain": 0.0010339970813724175,
+      "mean_residual_corr": 0.9951758468843641,
+      "status": "KILL"
+    },
+    {
+      "candidate": "deep_embed_multitask",
+      "mean_qwk": 0.47288332252532556,
+      "mean_gain": 0.0009352305090098619,
+      "wins": 1,
+      "mean_auc_gt1_gain": 0.0004326275329163594,
+      "mean_residual_corr": 0.9785184918793672,
+      "status": "KILL"
+    },
+    {
+      "candidate": "retrieval",
+      "mean_qwk": 0.47177132431699365,
+      "mean_gain": -0.00017676769932210382,
+      "wins": 1,
+      "mean_auc_gt1_gain": -6.021573865496362e-06,
+      "mean_residual_corr": 0.9474875519494653,
+      "status": "KILL"
+    },
+    {
+      "candidate": "fingerprint_aug",
+      "mean_qwk": 0.47088897617118347,
+      "mean_gain": -0.001059115845132223,
+      "wins": 1,
+      "mean_auc_gt1_gain": 0.0002888237902060424,
+      "mean_residual_corr": 0.9977238157802463,
+      "status": "KILL"
+    }
+  ],
+  "best_candidate": null,
+  "full_cv_ran": false,
+  "full_metrics": {},
+  "submission_eligible": false,
+  "submission_path": null
+}
