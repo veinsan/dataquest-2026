@@ -1,0 +1,71 @@
+{
+  "version": "v8_conditional_foundation",
+  "n_train": 95609,
+  "n_test_rows": 23902,
+  "n_test_unique_ids": 23666,
+  "v2_anchor_crossfit_qwk": 0.48082657716039445,
+  "probe_survivors": [],
+  "promoted_specialists": [],
+  "best_specialist": null,
+  "stack_names": [
+    "v2_anchor"
+  ],
+  "stack_coefficients": {
+    "v2_anchor": 0.32200725375647604
+  },
+  "v8_crossfit_qwk": 0.4795709899553662,
+  "v8_gain_vs_anchor": -0.0012555872050282746,
+  "v8_global_diagnostic_qwk": 0.48136569136904905,
+  "unique_id_diagnostic_qwk": 0.4807460770521549,
+  "auc_gt1": 0.7801302136085394,
+  "auc_1_vs_2": 0.7659361005536758,
+  "positive_gain_folds": 1,
+  "median_fold_thresholds": [
+    1.5405094276091944,
+    2.0055555824633977,
+    2.516036554455637
+  ],
+  "global_diagnostic_thresholds": [
+    1.5367071747039023,
+    2.008431145681736,
+    2.512078921598171
+  ],
+  "worth_submitting_gate": false,
+  "beats_top3_0_48853_offline": false,
+  "beats_top2_0_56232_offline": false,
+  "beats_top1_0_61541_offline": false,
+  "submission_rows": 23666,
+  "foundation_manifest": {
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+    "torch": "2.10.0+cu128",
+    "cuda_available": true,
+    "gpu_count": 2,
+    "tabpfn_version_requested": "8.5.0",
+    "tabpfn_repo": "Prior-Labs/tabpfn_3",
+    "tabpfn_revision": "e923ba9be85784206c9e2f43b0035c84d5fd5747",
+    "tabicl_version_requested": "2.1.1",
+    "tabicl_classifier_checkpoint": "tabicl-classifier-v2-20260212.ckpt",
+    "tabicl_regressor_checkpoint": "tabicl-regressor-v2-20260212.ckpt",
+    "exaone_repo": "LG-AI-Research/EXAONE-Tabular",
+    "exaone_hf_revision": "96946d008279216721e951dd3ee2f55a38877864",
+    "gpus": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "tabpfn_classifier_file": "tabpfn-v3-classifier-v3_default.ckpt",
+    "tabpfn_classifier_sha256": "d0d865d54dfbc524f5703104be90620182dca7e5fb2c16de72e9959ea18f3988",
+    "exaone_classifier_download_error": "RemoteEntryNotFoundError('404 Client Error. (Request ID: Root=1-6a97af80-31d9b97136bacc315051bf6e;c6d11506-a243-4c8c-a289-657c96c4925e)\\n\\nEntry Not Found for url: https://huggingface.co/LG-AI-Research/EXAONE-Tabular/resolve/96946d008279216721e951dd3ee2f55a38877864/exaone-tabular-classifier-v1_default.safetensors.')",
+    "exaone_regressor_download_error": "RemoteEntryNotFoundError('404 Client Error. (Request ID: Root=1-6a97af80-15daf8602ce1de463786bb12;5fac1672-df84-47d6-89cb-96e9d0c3a100)\\n\\nEntry Not Found for url: https://huggingface.co/LG-AI-Research/EXAONE-Tabular/resolve/96946d008279216721e951dd3ee2f55a38877864/exaone-tabular-regressor-v1_default.safetensors.')"
+  },
+  "constraints": [
+    "Only competition-provided task features and labels are used.",
+    "Exact V2 code is retained as frozen anchor before foundation runtime installation.",
+    "Foundation models are trained/inferred as class-1-vs-class-2 specialists first.",
+    "Missing flags and TabICL modality decisions are selected within each outer training fold.",
+    "No target encoding, external respondent/source mapping, pseudo-labeling, manual test edits, or leaderboard probing.",
+    "Final blend is positive Ridge on continuous OOF scores; QWK thresholds are separated from weight fitting.",
+    "Final test thresholds are the median of fold-learned cutpoints.",
+    "Submission aggregates continuous scores by supplied test_final.id before discretization."
+  ]
+}

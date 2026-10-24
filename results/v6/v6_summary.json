@@ -1,0 +1,43 @@
+{
+  "version": "v6_error_centric_ordinal",
+  "n_train": 95609,
+  "n_test_rows": 23902,
+  "n_test_unique_ids": 23666,
+  "anchor_crossfit_qwk": 0.47915839158259343,
+  "best_probe_candidate": "corn",
+  "best_probe_gain": 0.00010592762689402384,
+  "probe_promoted": false,
+  "candidate_fullcv_ran": false,
+  "final_crossfit_qwk": 0.47915839158259343,
+  "final_gain_vs_anchor": 0.0,
+  "unique_id_diagnostic_qwk": 0.48009703355394806,
+  "final_boundary_auc": {
+    "auc_gt1": 0.7786817423412357,
+    "auc_gt2": 0.8724345069934093,
+    "auc_gt3": 0.8084302778289711,
+    "auc_1_vs_2": 0.7643703072753714
+  },
+  "final_rmse": 0.5160406899787494,
+  "final_export_alpha": 0.0,
+  "final_thresholds": [
+    1.5603957868498188,
+    2.0239446429480186,
+    2.5133339286745047
+  ],
+  "adjacent_error_separability_auc": 0.6234167163290244,
+  "beats_anchor_offline": false,
+  "worth_submitting_gate": false,
+  "top1_candidate_ge_061541": false,
+  "submission_rows": 23666,
+  "submission_mapping_reason": "duplicate test IDs have identical features; duplicate train IDs have consistent labels; continuous scores are aggregated by supplied test_final.id before thresholding",
+  "constraints": [
+    "Only competition-provided train/test/data dictionary/sample files are used.",
+    "No external data, external source reconstruction, pretrained external foundation model, manual test mapping, or leaderboard probing.",
+    "No feature scaling for tree models.",
+    "No SMOTE or random oversampling.",
+    "Difficulty weighting is computed strictly from inner OOF prediction errors.",
+    "Soft targets are computed strictly from inner OOF teacher predictions.",
+    "CORN probabilities are learned only from supplied training labels.",
+    "All final validation predictions are group-out-of-fold by respondent id."
+  ]
+}

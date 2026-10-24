@@ -1,0 +1,13 @@
+feature_a,feature_b,abs_spearman
+children_in_family,children_in_household,0.9979455783821822
+ever_used_ecigarette,ecigarette_status,0.9965917974927034
+age,age_band,0.9921980769091552
+health_insurance_type,private_health_insurance,0.9823708264577937
+cancer_ever,cancer_types_count,0.9806773006319908
+smoking_status,ever_smoked,0.9783277226838567
+income_poverty_category,poverty_ratio_band,0.9683666868628932
+adults_in_family,adults_in_household,0.9592532202826115
+has_senior_gov_insurance,senior_government_insurance,0.9489327436468227
+parental_status,children_in_family,0.9457031797196372
+parental_status,children_in_household,0.9450355131193946
+has_child_gov_insurance,child_government_insurance,0.9444264532280792

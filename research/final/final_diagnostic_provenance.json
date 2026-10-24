@@ -1,0 +1,417 @@
+[
+  {
+    "file": "ground_truth_sources.csv",
+    "rows": 39,
+    "columns": [
+      "id",
+      "label",
+      "title",
+      "tier",
+      "evidence_confidence",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "0": 15,
+      "1": 24
+    },
+    "tier": {
+      "T1_VERIFIED": 8,
+      "T1_WEB_EXACT": 15,
+      "T2_CANONICAL": 4,
+      "T1_SOURCE_CONTRADICTION": 4,
+      "T1_WEB_CORROBORATED": 8
+    }
+  },
+  {
+    "file": "ground_truth_verified.csv",
+    "rows": 72,
+    "columns": [
+      "id",
+      "label",
+      "title",
+      "tier",
+      "role",
+      "evidence_confidence",
+      "benchmark_weight",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "0": 22,
+      "1": 50
+    },
+    "tier": {
+      "T1_VERIFIED": 20,
+      "T1_WEB_EXACT": 15,
+      "T1_CONTENT_EXPLICIT": 23,
+      "T1_SOURCE_CONTRADICTION": 5,
+      "T1_WEB_CORROBORATED": 8,
+      "T1_CONTENT_CONTRADICTION": 1
+    }
+  },
+  {
+    "file": "ground_truth_unresolved.csv",
+    "rows": 2148,
+    "columns": [
+      "id",
+      "label",
+      "title",
+      "tier",
+      "role",
+      "method",
+      "evidence_note",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred",
+      "v2_meta_prob",
+      "v2_final_prob",
+      "v2_global_e",
+      "v2_global_c",
+      "v3_blend_prob",
+      "v5_v3_blend_prob",
+      "v5_v2_global_e",
+      "v8a_candidate",
+      "v8a_rescue"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "1": 2061,
+      "0": 87
+    },
+    "tier": {
+      "T4_UNRESOLVED": 2148
+    }
+  },
+  {
+    "file": "ground_truth_audit.csv",
+    "rows": 3603,
+    "columns": [
+      "id",
+      "title",
+      "label",
+      "tier",
+      "role",
+      "evidence_confidence",
+      "benchmark_weight",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred",
+      "legacy_label",
+      "legacy_method",
+      "v2_label",
+      "v2_validation_tier",
+      "v2_method",
+      "content_state",
+      "title_state",
+      "train_loo_precision",
+      "train_loo_support",
+      "v4_rule",
+      "v5_rescue",
+      "v2_meta_prob",
+      "v2_final_prob",
+      "v2_global_e",
+      "v2_global_c",
+      "v2_graph_rule_scorefile",
+      "v3_blend_prob",
+      "v3_graph_rule_scorefile",
+      "v5_v3_blend_prob",
+      "v5_v2_global_e",
+      "v8a_candidate",
+      "v8a_rescue",
+      "model_disagreement"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "0": 366,
+      "1": 3237
+    },
+    "tier": {
+      "T1_VERIFIED": 20,
+      "T4_UNRESOLVED": 2148,
+      "T0_EXACT_TRAIN": 927,
+      "T2_STRUCTURAL_HIGH": 261,
+      "T1_WEB_EXACT": 15,
+      "T2_CANONICAL": 78,
+      "T1_CONTENT_EXPLICIT": 23,
+      "T3_SECONDARY": 117,
+      "T1_SOURCE_CONTRADICTION": 5,
+      "T1_WEB_CORROBORATED": 8,
+      "T1_CONTENT_CONTRADICTION": 1
+    }
+  },
+  {
+    "file": "historical_validation.csv",
+    "rows": 42,
+    "columns": [
+      "benchmark",
+      "n_rows",
+      "submission",
+      "macro_f1",
+      "accuracy",
+      "public_lb",
+      "note"
+    ],
+    "sha256_match": true
+  },
+  {
+    "file": "public_lb_constraints.csv",
+    "rows": 6,
+    "columns": [
+      "from_submission",
+      "to_submission",
+      "from_public_lb",
+      "to_public_lb",
+      "public_delta",
+      "changed_rows",
+      "changed_ids",
+      "interpretation"
+    ],
+    "sha256_match": true
+  },
+  {
+    "file": "ground_truth.csv",
+    "rows": 3603,
+    "columns": [
+      "id",
+      "label"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "0": 366,
+      "1": 3237
+    }
+  },
+  {
+    "file": "ground_truth_primary.csv",
+    "rows": 411,
+    "columns": [
+      "id",
+      "label",
+      "title",
+      "tier",
+      "role",
+      "evidence_confidence",
+      "benchmark_weight",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "0": 277,
+      "1": 134
+    },
+    "tier": {
+      "T1_VERIFIED": 20,
+      "T2_STRUCTURAL_HIGH": 261,
+      "T1_WEB_EXACT": 15,
+      "T2_CANONICAL": 78,
+      "T1_CONTENT_EXPLICIT": 23,
+      "T1_SOURCE_CONTRADICTION": 5,
+      "T1_WEB_CORROBORATED": 8,
+      "T1_CONTENT_CONTRADICTION": 1
+    }
+  },
+  {
+    "file": "ground_truth_exact_sanity.csv",
+    "rows": 927,
+    "columns": [
+      "id",
+      "label",
+      "title",
+      "tier",
+      "role",
+      "evidence_confidence",
+      "benchmark_weight",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "1": 925,
+      "0": 2
+    },
+    "tier": {
+      "T0_EXACT_TRAIN": 927
+    }
+  },
+  {
+    "file": "ground_truth_secondary.csv",
+    "rows": 117,
+    "columns": [
+      "id",
+      "label",
+      "title",
+      "tier",
+      "role",
+      "evidence_confidence",
+      "benchmark_weight",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "1": 117
+    },
+    "tier": {
+      "T3_SECONDARY": 117
+    }
+  },
+  {
+    "file": "ground_truth_disagreements.csv",
+    "rows": 91,
+    "columns": [
+      "id",
+      "title",
+      "label",
+      "tier",
+      "role",
+      "evidence_confidence",
+      "benchmark_weight",
+      "method",
+      "evidence_note",
+      "source_url",
+      "checked_at",
+      "v1_pred",
+      "v2_pred",
+      "v3_pred",
+      "v4_pred",
+      "v5_pred",
+      "v8a_pred",
+      "legacy_label",
+      "legacy_method",
+      "v2_label",
+      "v2_validation_tier",
+      "v2_method",
+      "content_state",
+      "title_state",
+      "train_loo_precision",
+      "train_loo_support",
+      "v4_rule",
+      "v5_rescue",
+      "v2_meta_prob",
+      "v2_final_prob",
+      "v2_global_e",
+      "v2_global_c",
+      "v2_graph_rule_scorefile",
+      "v3_blend_prob",
+      "v3_graph_rule_scorefile",
+      "v5_v3_blend_prob",
+      "v5_v2_global_e",
+      "v8a_candidate",
+      "v8a_rescue",
+      "model_disagreement"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ],
+    "label": {
+      "1": 53,
+      "0": 38
+    },
+    "tier": {
+      "T1_WEB_EXACT": 15,
+      "T2_CANONICAL": 16,
+      "T1_CONTENT_EXPLICIT": 23,
+      "T1_VERIFIED": 15,
+      "T3_SECONDARY": 3,
+      "T2_STRUCTURAL_HIGH": 4,
+      "T1_SOURCE_CONTRADICTION": 5,
+      "T1_WEB_CORROBORATED": 8,
+      "T1_CONTENT_CONTRADICTION": 1,
+      "T4_UNRESOLVED": 1
+    }
+  },
+  {
+    "file": "ground_truth_changes_vs_v3.csv",
+    "rows": 179,
+    "columns": [
+      "id",
+      "title",
+      "old_label",
+      "new_label",
+      "old_tier",
+      "new_tier",
+      "new_role",
+      "evidence_confidence",
+      "method",
+      "evidence_note",
+      "source_url"
+    ],
+    "sha256_match": true,
+    "id_prefixes": [
+      "te"
+    ]
+  }
+]

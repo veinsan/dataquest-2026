@@ -1,0 +1,124 @@
+{
+  "train_shape": [
+    95609,
+    179
+  ],
+  "test_shape": [
+    23902,
+    178
+  ],
+  "sample_shape": [
+    23902,
+    2
+  ],
+  "unique_train": 94663,
+  "unique_test": 23666,
+  "train_conflicting_id_rows": 0,
+  "test_conflicting_id_rows": 0,
+  "id_overlap": 0,
+  "sample_test_id_overlap": 4518,
+  "sample_equals_test_ids": false,
+  "class_counts_unique": {
+    "1": 42552,
+    "2": 47713,
+    "3": 3511,
+    "4": 887
+  },
+  "class_counts_rows": {
+    "1": 42968,
+    "2": 48189,
+    "3": 3559,
+    "4": 893
+  },
+  "dictionary_only": [
+    "anxiety_screening_past_year",
+    "area_type",
+    "drinking_affects_life",
+    "had_wellness_visit",
+    "income_top_coded_flag",
+    "leisure_walking_minutes",
+    "salary_satisfaction",
+    "transport_walking_minutes"
+  ],
+  "train_only": [],
+  "raw_hashes": {
+    "train_final.csv": "0ccc7f7aa3d9e7520d1edd0cae30c1ac119fcb4c508fdd7c9ebc871ceaee2056",
+    "test_final.csv": "c7027da38aba915e6a9952d21c6cd960b22c172e0ccf3f9f570d63d07e008740",
+    "sample_submission.csv": "3b27035c9910f24c7a0cf29f85c1382be423f58cda0524bbd7b0a24ab9e65abf",
+    "data_dictionary.csv": "4ee1269e4e10fd62225916bb8eff1cd51930a211cb8488d6c97a5b4817e4f631"
+  },
+  "distinct_id_identical_predictor_rows": 0,
+  "train_test_identical_predictor_hashes": 0,
+  "household_train_unique": 59016,
+  "household_overlap_train_test": 11620,
+  "id_range_train": [
+    1,
+    118329
+  ],
+  "id_order_spearman": 0.0013714407011667141,
+  "mean_missing": 0.14405311473331714,
+  "row_missing_quantiles": {
+    "0.0": 4.0,
+    "0.01": 10.0,
+    "0.25": 18.0,
+    "0.5": 24.0,
+    "0.75": 33.0,
+    "0.99": 45.0,
+    "1.0": 60.0
+  },
+  "recovery": {
+    "qwk": 0.48186721909562624,
+    "rmse": 0.5152669061211503,
+    "weighted_error_sum": 42126,
+    "transitions": {
+      "1_to_2": {
+        "rows": 10745,
+        "weighted_loss": 10745,
+        "weighted_fraction": 0.25506812894649383
+      },
+      "2_to_1": {
+        "rows": 15929,
+        "weighted_loss": 15929,
+        "weighted_fraction": 0.3781275221953188
+      },
+      "false_tail": {
+        "rows": 6703,
+        "weighted_loss": 10720,
+        "weighted_fraction": 0.25447467122442197
+      },
+      "missed_tail": {
+        "rows": 1709,
+        "weighted_loss": 3947,
+        "weighted_fraction": 0.09369510516070835
+      },
+      "3_4": {
+        "rows": 785,
+        "weighted_loss": 785,
+        "weighted_fraction": 0.01863457247305702
+      }
+    },
+    "auc_1v2": 0.7657964184802133,
+    "entropy_1v2": 0.9976405522758957,
+    "auc_tail": 0.872638038868274,
+    "entropy_tail": 0.27116259361563366,
+    "auc_3v4": 0.5380047311445395,
+    "entropy_3v4": 0.725280523866934
+  },
+  "adversarial_probe": [
+    {
+      "view": "raw",
+      "rows": 24000,
+      "auc": 0.5015146805555555
+    },
+    {
+      "view": "design",
+      "rows": 24000,
+      "auc": 0.5013289999999999
+    },
+    {
+      "view": "id_only",
+      "rows": 24000,
+      "auc": 0.5014313472222222
+    }
+  ]
+}

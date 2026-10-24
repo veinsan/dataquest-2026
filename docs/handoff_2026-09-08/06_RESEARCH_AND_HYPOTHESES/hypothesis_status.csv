@@ -1,0 +1,17 @@
+hypothesis,status,evidence,revive_if
+Global GBDT / ordinary feature tuning,SATURATED,V1-V6 and repeated anchors converge; V2 remains best raw-model family,new feature block has strong causal/semantic rationale and multi-fold ranking gain
+Structural ontology/questionnaire paths,FALSIFIED IN TESTED FORM,V3 crossfit 0.479948 below V2,"materially different representation, not renamed V3"
+Target-encoding / feature explosion,CLOSED AS BREAKTHROUGH,no robust gains; overfit risk,none without new mechanism
+Naive retrieval / fixed geometry,FALSIFIED IN TESTED FORM,V4 retrieval diverse but no accuracy gain,learned supervised geometry — this motivates V12
+Household/quasi-key lookup,CLOSED,weak household purity; V5.1 gain ~+0.0000135,new direct legal evidence of strong fold-safe target association
+Distillation/difficulty/CORN,FALSIFIED/DEPRIORITIZED,V6 no meaningful gain,new representation changes underlying ranking first
+Direct/global QWK calibration optimization,CLOSED,V6.1 optimism ~+0.00293; V11 global calibration did not beat recovery,never as headline validation
+TabM/RealMLP B1 specialists,FALSIFIED FOR B1 SPECIALIST FORM,V5 no robust B1/QWK breakthrough,full-target formulation remains technically open but lower priority
+Generic TabPFN / TabICL foundation prior,STRONGLY DEPRIORITIZED,V7 TabPFN weak; V9 TabICL strongly negative,"materially new architecture/data prior, not model cycling"
+EXAONE,"QUALITY OPEN, OPERATIONALLY DEPRIORITIZED",V8.3 runtime preflight worked but no valid quality probe due memory,resource/runtime situation materially changes
+xRFM local feature geometry,"QUALITY OPEN, SUSPENDED",V10 never produced valid outer predictions; repeated engineering failures,consolidated runtime solution + sufficient compute + reason after V12
+Prediction-space learned stacking,FALSIFIED,"V11 delta QWK -0.003205, 0/5 positive, AUC unchanged, P>0=0",materially new source predictions with independent ranking signal
+Recovery convex averaging,VALIDATED POSITIVE BUT LIKELY NEAR SATURATION,LB 0.48334; V11 could not extend it,new strong independent base prediction exists
+Learned respondent neighborhood geometry (ModernNCA),ACTIVE OPEN — V12,fixed retrieval failed because geometry may be wrong; no valid ModernNCA result yet,currently active
+TabR learned retrieval,OPEN SECONDARY,"related learned-geometry mechanism, but less diagnostic than ModernNCA",ModernNCA shows local geometry signal
+Psychometric/latent wellbeing representation,OPEN RESEARCH,"domain plausible; many survey constructs track latent wellbeing, but no direct internal positive evidence",learned-neighborhood hypothesis fails or new strong domain representation is formulated

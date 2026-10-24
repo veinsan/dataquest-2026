@@ -1,0 +1,9 @@
+{
+  "promoted": false,
+  "mean_delta_auc_1v2": -0.007480119175925837,
+  "mean_delta_qwk": -0.009723777840714265,
+  "mean_residual_corr": 0.9916294288743278,
+  "no_catastrophic_fold": false,
+  "strong_signal_gate": false,
+  "novelty_gate": false
+}

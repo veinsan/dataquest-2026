@@ -1,0 +1,13 @@
+artifact,role,status,sha256
+results.zip,"Historical V1–V8.3 results, OOF/test/submission/summary files",valid archive; raw contents excluded,fddb0cfd9b2bdc8b1b3f0443d1a2802c4a300631353b46658f0dd2863bb69ae5
+notebooks.zip,Historical V1–V8.3 source notebooks,available historically; excluded from handoff,
+results-v9.zip,V9 runtime + Stage-S + V2 anchor + TabICL checkpoint cache,valid V9 evidence,b71a061238d2af74f1f582cd67ff9397bb69189c12efc2ae4765e2f53082db9c
+results-v10-error.zip,Uploaded as V10 error results,"MISLEADING: contents are oqdq5_v9 tree, not V10",10e61258bbf9874d4221f4f785b33cf204730e73f9b74c7b094ba22f28e544d9
+dataquest(1).log / dataquest(2).log,Long V10 Kaggle execution logs,valid runtime evidence; excluded,
+dataquest(9).ipynb,Executed V10 notebook from long failure run,source/runtime evidence; excluded,
+submission_cpu_recovery_v10_crisis.csv,Current champion recovery submission,LB 0.48334; excluded,f8d5e0a8ce37eef1f71eba42dab3aa6945d234c1764c7394f78aa9729bbc3f75
+results-v11.zip,"V11 OOF, fold metrics, bootstrap, manifests, no submission",valid scientific falsification evidence,9750d7ddabe0f378064d6b27208fd4f942e62a0d10e034e761f8c3d0026fbc97
+v11.ipynb,Executed V11 notebook,runtime success; excluded,
+Objective_Quest_DATAQUEST_5_V12_ModernNCA.ipynb,Latest V12 source that failed pre-training source-integrity check,current implementation evidence; excluded,1712acb65b36f636ba8f5ad913ff21562a003f5b44b583db75195079729d456f
+dataquest(3).log / download(3).txt,Latest V12 Kaggle log/output,current blocker evidence; excluded,593ba18238cf1e498428b6f3a9533afba5452eb581824a72caecafab5c207126
+Objective_Quest_DATAQUEST_5_V12_ModernNCA_FIXED.ipynb,Unexecuted local static draft created during latest debugging,NOT runtime-validated; do not treat blocker as resolved,

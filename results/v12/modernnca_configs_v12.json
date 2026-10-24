@@ -1,0 +1,186 @@
+[
+  {
+    "model": {
+      "dim": 422,
+      "dropout": 0.29961907325969833,
+      "d_block": 269,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 35,
+        "frequency_scale": 0.2808646588975522,
+        "d_embedding": 31,
+        "lite": true
+      },
+      "sample_rate": 0.31765543760789716
+    },
+    "training": {
+      "lr": 0.01763072419056641,
+      "weight_decay": 0.0
+    },
+    "general": {},
+    "config_id": 0
+  },
+  {
+    "model": {
+      "dim": 781,
+      "dropout": 0.38221205108011186,
+      "d_block": 706,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 35,
+        "frequency_scale": 0.007849896600161546,
+        "d_embedding": 32,
+        "lite": true
+      },
+      "sample_rate": 0.3057587504534756
+    },
+    "training": {
+      "lr": 0.0006054262918055389,
+      "weight_decay": 0.0
+    },
+    "general": {},
+    "config_id": 1
+  },
+  {
+    "model": {
+      "dim": 177,
+      "dropout": 0.332544262105686,
+      "d_block": 304,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 60,
+        "frequency_scale": 8.23268524394698,
+        "d_embedding": 32,
+        "lite": true
+      },
+      "sample_rate": 0.4409223428658866
+    },
+    "training": {
+      "lr": 0.0008655326388031571,
+      "weight_decay": 2.6841984147952544e-05
+    },
+    "general": {},
+    "config_id": 2
+  },
+  {
+    "model": {
+      "dim": 852,
+      "dropout": 0.4742625722425824,
+      "d_block": 686,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 52,
+        "frequency_scale": 0.014451539830596159,
+        "d_embedding": 23,
+        "lite": true
+      },
+      "sample_rate": 0.5414846456561201
+    },
+    "training": {
+      "lr": 0.03350566263168187,
+      "weight_decay": 4.0818352891187185e-06
+    },
+    "general": {},
+    "config_id": 3
+  },
+  {
+    "model": {
+      "dim": 1001,
+      "dropout": 0.0824739908891644,
+      "d_block": 244,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 44,
+        "frequency_scale": 1.1475088799828153,
+        "d_embedding": 36,
+        "lite": true
+      },
+      "sample_rate": 0.06325492185297743
+    },
+    "training": {
+      "lr": 0.004112476281724047,
+      "weight_decay": 0.00010371067653521566
+    },
+    "general": {},
+    "config_id": 4
+  },
+  {
+    "model": {
+      "dim": 509,
+      "dropout": 0.27009069276603764,
+      "d_block": 415,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 29,
+        "frequency_scale": 0.36879193722958054,
+        "d_embedding": 58,
+        "lite": true
+      },
+      "sample_rate": 0.5710657698916356
+    },
+    "training": {
+      "lr": 0.0018452700480821468,
+      "weight_decay": 0.00014749005154614023
+    },
+    "general": {},
+    "config_id": 5
+  },
+  {
+    "model": {
+      "dim": 517,
+      "dropout": 0.341523178057644,
+      "d_block": 389,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 82,
+        "frequency_scale": 6.838958867225874,
+        "d_embedding": 56,
+        "lite": true
+      },
+      "sample_rate": 0.18707197172477863
+    },
+    "training": {
+      "lr": 5.751581692675271e-05,
+      "weight_decay": 0.00015963944524800282
+    },
+    "general": {},
+    "config_id": 6
+  },
+  {
+    "model": {
+      "dim": 402,
+      "dropout": 0.378830499948205,
+      "d_block": 808,
+      "n_blocks": 0,
+      "temperature": 1,
+      "num_embeddings": {
+        "type": "PLREmbeddings",
+        "n_frequencies": 51,
+        "frequency_scale": 3.776827150217538,
+        "d_embedding": 22,
+        "lite": true
+      },
+      "sample_rate": 0.21656174408896478
+    },
+    "training": {
+      "lr": 0.000984120733887293,
+      "weight_decay": 0.0
+    },
+    "general": {},
+    "config_id": 7
+  }
+]

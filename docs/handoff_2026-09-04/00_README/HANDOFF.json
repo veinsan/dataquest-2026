@@ -1,0 +1,90 @@
+{
+  "project": "Objective Quest DATAQUEST 5.0",
+  "snapshot_date": "2026-09-04",
+  "timezone": "Asia/Jakarta",
+  "artifact_scope": "documentation_only",
+  "excluded": [
+    "notebooks",
+    "raw competition data",
+    "raw logs",
+    "OOF predictions",
+    "test predictions",
+    "submissions",
+    "model checkpoints"
+  ],
+  "dataset": {
+    "train_shape": [
+      95609,
+      179
+    ],
+    "test_shape": [
+      23902,
+      178
+    ],
+    "unique_train_id": 94663,
+    "unique_test_id": 23666,
+    "target": "life_satisfaction",
+    "target_counts": {
+      "1": 42968,
+      "2": 48189,
+      "3": 3559,
+      "4": 893
+    },
+    "train_missing_rate": 0.142099,
+    "test_missing_rate": 0.143009,
+    "train_unique_household": 59016,
+    "test_unique_household": 19745,
+    "train_test_household_overlap": 11619
+  },
+  "verified_scores": {
+    "v1_crossfit_qwk": 0.479662,
+    "v1_public_lb": 0.48003,
+    "v2_crossfit_qwk": 0.481367,
+    "v2_public_lb": 0.48193,
+    "v6_core_crossfit_qwk": 0.478899,
+    "v6_final_crossfit_qwk": 0.478832,
+    "v6_unique_id_diagnostic": 0.480162,
+    "v6_auc_y_gt_1": 0.779611,
+    "v6_auc_y_gt_2": 0.872803,
+    "v6_auc_y_gt_3": 0.808347,
+    "v6_auc_1_vs_2": 0.765352,
+    "v6_global_calibration_qwk": 0.481761
+  },
+  "reference_targets_not_team_scores": [
+    0.48231,
+    0.48853,
+    0.56232,
+    0.61541
+  ],
+  "anchor": "exact V2 executable pipeline",
+  "primary_bottleneck": "class 1 <-> 2 boundary",
+  "current_architecture": "V8 conditional foundation mixture with frozen V2 tails",
+  "next_step": "V8.3 EXAONE runtime debugging",
+  "v8_probe_folds": [
+    0,
+    2,
+    3
+  ],
+  "v8_gates": {
+    "fold0_survive_delta_auc": 0.001,
+    "promote_mean_delta_auc": 0.003,
+    "promote_min_wins": 2,
+    "promote_mean_cond_qwk_gain": 0.0015,
+    "serious_b1_auc": 0.786,
+    "submit_crossfit_gate": 0.4875
+  },
+  "foundation_versions": {
+    "tabpfn_version": "8.5.0",
+    "tabpfn_repo": "Prior-Labs/tabpfn_3",
+    "tabpfn_revision": "e923ba9be85784206c9e2f43b0035c84d5fd5747",
+    "tabicl_version": "2.1.1",
+    "exaone_repo": "LG-AI-Research/EXAONE-Tabular",
+    "exaone_checkpoint_revision": "96946d008279216721e951dd3ee2f55a38877864",
+    "exaone_runtime_commit": null
+  },
+  "open_result_fields": [
+    "V7 final OOF/LB",
+    "V8 EXAONE/TabICL/TabPFN final probe metrics",
+    "exact EXAONE runtime exception trace"
+  ]
+}

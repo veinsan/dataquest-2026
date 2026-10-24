@@ -1,0 +1,31 @@
+{
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "torch": "2.10.0+cu128",
+  "cuda_available": true,
+  "gpu_count": 2,
+  "gpus": [
+    {
+      "index": 0,
+      "name": "Tesla T4",
+      "total_memory_gib": 14.56219482421875
+    },
+    {
+      "index": 1,
+      "name": "Tesla T4",
+      "total_memory_gib": 14.56219482421875
+    }
+  ],
+  "tabicl_version": "2.2.0",
+  "tabicl_repo": "jingang/TabICL",
+  "tabicl_checkpoint": "tabicl-regressor-v2-20260212.ckpt",
+  "tabicl_checkpoint_path": "/kaggle/working/oqdq5_v9/hf_cache/models--jingang--TabICL/snapshots/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-regressor-v2-20260212.ckpt",
+  "tabicl_checkpoint_sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+  "tabicl_license": "BSD-3-Clause",
+  "n_estimators_runtime": 1,
+  "n_estimators_screen": 2,
+  "n_estimators_full": 4,
+  "batch_size": 1,
+  "kv_cache": false,
+  "offload_mode": "auto"
+}

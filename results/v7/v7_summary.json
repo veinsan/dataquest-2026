@@ -1,0 +1,60 @@
+{
+  "version": "v7_foundation_breakthrough",
+  "n_train": 95609,
+  "n_test_rows": 23902,
+  "n_test_unique_ids": 23666,
+  "checkpoint_manifest": {
+    "repo": "Prior-Labs/tabpfn_3",
+    "revision": "e923ba9be85784206c9e2f43b0035c84d5fd5747",
+    "classifier_file": "tabpfn-v3-classifier-v3_default.ckpt",
+    "classifier_sha256": "d0d865d54dfbc524f5703104be90620182dca7e5fb2c16de72e9959ea18f3988",
+    "regressor_file": "tabpfn-v3-regressor-v3_default.ckpt",
+    "regressor_sha256": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301",
+    "tabpfn_version": "8.5.0"
+  },
+  "foundation_feature_count": 176,
+  "categorical_feature_count": 173,
+  "probe_folds": [
+    0,
+    2,
+    3
+  ],
+  "probe_n_estimators": 4,
+  "full_n_estimators": 8,
+  "promoted_branches": [],
+  "v2_anchor_crossfit_qwk": 0.4817162466360553,
+  "v7_stack_global_qwk": 0.4817859575730097,
+  "v7_stack_crossfit_qwk": 0.4814483606430926,
+  "v7_gain_vs_v2_anchor": -0.0002678859929626798,
+  "unique_id_diagnostic_qwk": 0.48143029977340146,
+  "boundary_auc": {
+    "auc_gt1": 0.7799844334520237,
+    "auc_gt2": 0.8721348896384358,
+    "auc_gt3": 0.8080393407589859,
+    "auc_1_vs_2": 0.7657913042729386
+  },
+  "global_thresholds": [
+    1.5632714574324709,
+    2.00852767061844,
+    2.4678303847903087
+  ],
+  "stack_names": [
+    "v2_anchor"
+  ],
+  "stack_final_coefficients": {
+    "v2_anchor": 0.3217031664186938
+  },
+  "beats_0_48231_offline": false,
+  "breakthrough_ge_0_50": false,
+  "top1_candidate_ge_0_61541": false,
+  "worth_submitting_gate": false,
+  "submission_rows": 23666,
+  "constraints": [
+    "Only competition-provided train/test labels/features are used at task time.",
+    "TabPFN-3 checkpoints are public and pinned to an explicit Hugging Face revision and SHA256.",
+    "No source reconstruction, manual mapping, hardcoded test labels, or leaderboard probing.",
+    "V2 remains frozen anchor; foundation branches are promoted by grouped OOF only.",
+    "Smooth non-negative ridge stacking is separated from QWK threshold optimization.",
+    "Submission aggregates continuous test scores by supplied test_final.id before thresholding."
+  ]
+}

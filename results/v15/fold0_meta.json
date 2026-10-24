@@ -1,0 +1,95 @@
+{
+  "contract_hash": "1f4d518ed9124e7a",
+  "fold": 0,
+  "train_n": 75730,
+  "valid_n": 18933,
+  "selected_n": 181,
+  "posterior_n": 54,
+  "lgb_best_iteration": 387,
+  "xgb_best_iteration": 489,
+  "cat_best_iteration": 940,
+  "ordinal_best_iterations": [
+    533,
+    178,
+    133
+  ],
+  "repair_rules": [
+    {
+      "source": "data_year",
+      "destination": "survey_year",
+      "accuracy": 1.0,
+      "support": 64204,
+      "accepted": true
+    },
+    {
+      "source": "survey_year",
+      "destination": "data_year",
+      "accuracy": 1.0,
+      "support": 64204,
+      "accepted": true
+    },
+    {
+      "source": "interview_month",
+      "destination": "interview_quarter",
+      "accuracy": 1.0,
+      "support": 64069,
+      "accepted": true
+    },
+    {
+      "source": "food_security_4cat",
+      "destination": "food_security_3cat",
+      "accuracy": 1.0,
+      "support": 63890,
+      "accepted": true
+    },
+    {
+      "source": "cancer_types_count",
+      "destination": "cancer_ever",
+      "accuracy": 1.0,
+      "support": 63992,
+      "accepted": true
+    },
+    {
+      "source": "ecigarette_status",
+      "destination": "ever_used_ecigarette",
+      "accuracy": 0.999264786396984,
+      "support": 63927,
+      "accepted": true
+    },
+    {
+      "source": "children_in_family",
+      "destination": "children_in_household",
+      "accuracy": 0.9987163632378955,
+      "support": 63881,
+      "accepted": true
+    },
+    {
+      "source": "children_in_household",
+      "destination": "children_in_family",
+      "accuracy": 0.9987163632378955,
+      "support": 63881,
+      "accepted": true
+    },
+    {
+      "source": "smoking_status",
+      "destination": "ever_smoked",
+      "accuracy": 0.9985513341744942,
+      "support": 64197,
+      "accepted": true
+    },
+    {
+      "source": "health_insurance_type",
+      "destination": "private_health_insurance",
+      "accuracy": 0.9980875576036866,
+      "support": 43400,
+      "accepted": true
+    },
+    {
+      "source": "marital_status_detailed",
+      "destination": "marital_status",
+      "accuracy": 0.9966101165370075,
+      "support": 64014,
+      "accepted": true
+    }
+  ]
+}

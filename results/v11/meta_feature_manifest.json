@@ -1,0 +1,86 @@
+{
+  "families": {
+    "core_tree": [
+      "v1_lgb",
+      "v1_xgb",
+      "v1_cat",
+      "v2_lgb_core",
+      "v2_xgb_core",
+      "v2_cat_core",
+      "v5_lgb",
+      "v5_xgb",
+      "v5_cat",
+      "v6_lgb",
+      "v6_xgb",
+      "v6_cat",
+      "v61_lgb_core",
+      "v61_xgb_core",
+      "v61_cat_core"
+    ],
+    "categorical_ordinal": [
+      "v2_lgb_cat",
+      "v2_xgb_cat",
+      "v2_lgb_mono",
+      "v2_lgb_mc",
+      "v2_lgb_cum",
+      "v61_xgb_cat",
+      "v61_lgb_cum"
+    ],
+    "structural": [
+      "v3_lgb_struct",
+      "v3_xgb_struct",
+      "v3_cat_dual"
+    ],
+    "alternate_gbdt": [
+      "v1_ensemble",
+      "v2_core",
+      "v2_final",
+      "v3_final",
+      "v5_final",
+      "v6_final",
+      "v61_final",
+      "v7_stack",
+      "v8_stack",
+      "v81_final",
+      "v82_final",
+      "v83_final"
+    ],
+    "allcat": [
+      "v61_allcat"
+    ],
+    "repeated_anchor": [
+      "v7_anchor",
+      "v8_anchor"
+    ]
+  },
+  "feature_names": [
+    "family__core_tree",
+    "family__categorical_ordinal",
+    "family__structural",
+    "family__alternate_gbdt",
+    "family__allcat",
+    "family__repeated_anchor",
+    "recovery_score",
+    "family_mean",
+    "family_std",
+    "family_min",
+    "family_max",
+    "family_range",
+    "recovery_minus__core_tree",
+    "recovery_minus__categorical_ordinal",
+    "recovery_minus__structural",
+    "recovery_minus__alternate_gbdt",
+    "recovery_minus__allcat",
+    "recovery_minus__repeated_anchor",
+    "prop_family_above_t1",
+    "prop_family_above_t2",
+    "prop_family_above_t3",
+    "recovery_margin_t1",
+    "recovery_abs_margin_t1"
+  ],
+  "threshold_features_are_split_local": true,
+  "excluded_versions": [
+    "v9",
+    "v10"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "data_dir": "/kaggle/input/datasets/tianchristiani150173/oq-dq-5",
+  "train_shape": [
+    95609,
+    179
+  ],
+  "test_shape": [
+    23902,
+    178
+  ],
+  "train_unique_ids": 94663,
+  "test_unique_ids": 23666,
+  "train_duplicate_id_rows": 1892,
+  "test_duplicate_id_rows": 472,
+  "train_sha256": "0ccc7f7aa3d9e7520d1edd0cae30c1ac119fcb4c508fdd7c9ebc871ceaee2056",
+  "test_sha256": "c7027da38aba915e6a9952d21c6cd960b22c172e0ccf3f9f570d63d07e008740",
+  "dictionary_sha256": "4ee1269e4e10fd62225916bb8eff1cd51930a211cb8488d6c97a5b4817e4f631",
+  "sample_sha256": "3b27035c9910f24c7a0cf29f85c1382be423f58cda0524bbd7b0a24ab9e65abf"
+}

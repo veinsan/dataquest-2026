@@ -1,0 +1,123 @@
+{
+  "stage_s": {
+    "mean_delta_auc_1v2": -0.0043373497048324605,
+    "mean_delta_auc_ygt1": -0.004237685067410957,
+    "mean_delta_qwk": -0.010239081900547342,
+    "residual_corr": 0.9923181243084308,
+    "prediction_corr": 0.9794428530660368,
+    "score_delta_quantiles": [
+      -0.7285690102070213,
+      -0.17560840416036697,
+      -0.10051037018680153,
+      -0.03453197626179938,
+      0.003122395180123916,
+      0.03857834129757087,
+      0.09744482405025473,
+      0.15830599424468086,
+      0.5708660702097461
+    ],
+    "mean_abs_score_delta": 0.047332905446649705,
+    "no_catastrophic_auc_regression": true,
+    "ranking_gate": false,
+    "qwk_gate": false,
+    "novelty_critical_auc_ok": false,
+    "novelty_gate": false,
+    "promoted": false
+  },
+  "full_available": false,
+  "recommended_candidate": null,
+  "submission_path": null,
+  "version": "v12_modernnca_learned_geometry_full_target_ordinal_regression",
+  "frozen_recovery_public_lb": 0.48334,
+  "gates": {
+    "stage_s": {
+      "ranking_gain": 0.005,
+      "qwk_gain": 0.002,
+      "novelty_qwk_floor": -0.0015,
+      "novelty_residual_corr_lt": 0.95
+    },
+    "scientific_qwk_gain": 0.002,
+    "submission_qwk_gain": 0.0015,
+    "submission_boot_p": 0.9,
+    "challenge_qwk_gain": 0.0025,
+    "challenge_auc_gain": 0.005
+  },
+  "provenance": {
+    "TALENT_version": "0.1.0",
+    "TALENT_commit": "1b973adffa4203c3f62c4949957b1ba3efbe60d3",
+    "modernNCA_source_sha256": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f",
+    "modernNCA_method_sha256": "91348eac32918fb5fe74f6f8813e3966b434bc2c994eb4bc19cba0c69d018565",
+    "config_manifest_sha256": "ab65458a3176ab4c48f706fee2ff93a9a927b4eab3ad9fcdb64d3eb410ced72d",
+    "dependency_requirements": [
+      {
+        "requirement": "tqdm>=4.66.4",
+        "installed": "4.67.3",
+        "ok": true
+      },
+      {
+        "requirement": "category_encoders>=2.6.3",
+        "installed": "2.9.0",
+        "ok": true
+      },
+      {
+        "requirement": "delu>=0.0.23",
+        "installed": "0.0.26",
+        "ok": true
+      },
+      {
+        "requirement": "einops>=0.8.0",
+        "installed": "0.8.2",
+        "ok": true
+      },
+      {
+        "requirement": "numpy>=1.26.4",
+        "installed": "2.0.2",
+        "ok": true
+      },
+      {
+        "requirement": "optuna>=3.6.1",
+        "installed": "3.6.1",
+        "ok": true
+      },
+      {
+        "requirement": "pandas>=2.2.2",
+        "installed": "2.3.3",
+        "ok": true
+      },
+      {
+        "requirement": "qhoptim>=1.1.0",
+        "installed": "1.1.0",
+        "ok": true
+      },
+      {
+        "requirement": "Requests>=2.31.0",
+        "installed": "2.32.4",
+        "ok": true
+      },
+      {
+        "requirement": "scikit_learn>=1.4.2",
+        "installed": "1.6.1",
+        "ok": true
+      },
+      {
+        "requirement": "scipy>=1.13.0",
+        "installed": "1.16.3",
+        "ok": true
+      },
+      {
+        "requirement": "torch>=2.8.0",
+        "installed": "2.10.0+cu128",
+        "ok": true
+      }
+    ],
+    "data_dir": "/kaggle/input/competitions/oq-dq-5",
+    "historical_source": "/kaggle/input/datasets/riantamaputra/dataquest-2026-historical-results",
+    "train_seeds": [
+      42,
+      2026
+    ],
+    "HPO_seed": 20260908,
+    "base_models_retrained": false,
+    "official_architecture_import": "TALENT.model.models.modernNCA.ModernNCA"
+  }
+}

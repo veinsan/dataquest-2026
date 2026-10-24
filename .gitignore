@@ -1,0 +1,12 @@
+# Data kompetisi (download dari Kaggle)
+data/
+# Salinan raw train/test hasil dedup
+results/v12/v12_*_unique_raw.csv
+results/v14/*_unique_v14.csv
+# Backup lokal
+.fr-*/
+*.zip
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

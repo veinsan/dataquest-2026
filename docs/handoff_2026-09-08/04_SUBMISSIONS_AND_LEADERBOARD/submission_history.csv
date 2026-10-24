@@ -1,0 +1,8 @@
+pipeline,public_lb,verified,status
+V1,0.48003,yes,historical valid
+V2,0.48193,yes,historical valid
+CPU recovery ensemble V2+V5.1+V6.1+V7,0.48334,yes,CURRENT CHAMPION rank 4
+V9 TabICLv2,,no,no submission; falsified Stage S
+V10 xRFM,,no,no scientifically valid candidate
+V11 ordinal stacker,,no,DO NOT SUBMIT
+V12 ModernNCA,,no,not yet trained/evaluated

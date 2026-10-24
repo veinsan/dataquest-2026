@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/LAMDA-Tabular/TALENT.git",
+  "resolved_commit": "1b973adffa4203c3f62c4949957b1ba3efbe60d3",
+  "dependency_specs": [
+    "category_encoders>=2.6.3,<3",
+    "delu>=0.0.23,<1",
+    "einops>=0.8,<1",
+    "optuna==3.6.1",
+    "qhoptim==1.1.0"
+  ]
+}

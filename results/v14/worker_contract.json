@@ -1,0 +1,11 @@
+{
+  "target": "life_satisfaction",
+  "id_col": "id",
+  "checkpoint": "/root/.cache/huggingface/hub/models--occams--Xiaomi-TabLDM/snapshots/0e10427273bc862fb60fe7df84c89e5298e16cc7/checkpoints/reg_default.ckpt",
+  "batch_size": 1,
+  "use_amp": "auto",
+  "offload_mode": "auto",
+  "offload_root": "/kaggle/temp/oqdq5_v14_tabldm_offload",
+  "n_jobs": 4,
+  "runtime_probe_rows": 1792
+}

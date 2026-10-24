@@ -1,0 +1,18 @@
+{
+  "feature_mode": "full",
+  "resource_fallback": {
+    "used": false,
+    "reason": null,
+    "from": "full",
+    "to": null
+  },
+  "mean_delta_auc_1v2": -0.008909788847464906,
+  "mean_delta_auc_gt1": -0.008450922316947773,
+  "mean_crossscreen_qwk_gain": -0.009541022876559113,
+  "mean_residual_corr_vs_v2": 0.988417058532844,
+  "no_catastrophic_auc_regression": false,
+  "ranking_gate": false,
+  "qwk_gate": false,
+  "diversity_gate": false,
+  "promoted_to_full_cv": false
+}

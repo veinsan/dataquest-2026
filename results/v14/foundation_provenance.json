@@ -1,0 +1,66 @@
+{
+  "tabldm_commit": "b8ec5c87b66434d941f701795584d86853fd7f29",
+  "tabldm_direct_url": {
+    "url": "https://github.com/xiaomi-research/xiaomi-tabldm.git",
+    "vcs_info": {
+      "commit_id": "b8ec5c87b66434d941f701795584d86853fd7f29",
+      "requested_revision": "b8ec5c87b66434d941f701795584d86853fd7f29",
+      "vcs": "git"
+    }
+  },
+  "tabldm_module": "/usr/local/lib/python3.12/dist-packages/tabldm/__init__.py",
+  "regressor_source_sha256": "ef397bb82eee55b4f3deef5099f2878db6b44298a33dbff1e71b539878eb7eaa",
+  "checkpoint_repo": "occams/Xiaomi-TabLDM",
+  "checkpoint_revision": "0e10427273bc862fb60fe7df84c89e5298e16cc7",
+  "checkpoint_file": "checkpoints/reg_default.ckpt",
+  "checkpoint_local_path": "/root/.cache/huggingface/hub/models--occams--Xiaomi-TabLDM/snapshots/0e10427273bc862fb60fe7df84c89e5298e16cc7/checkpoints/reg_default.ckpt",
+  "checkpoint_sha256": "c2be1257f1f3bcfd01ee73fbf964db1e07a535e84fc3811736aadef571adcb48",
+  "package_version": "0.1.0",
+  "dependency_requirements": [
+    {
+      "requirement": "einops>=0.7",
+      "installed": "0.8.2",
+      "ok": true
+    },
+    {
+      "requirement": "huggingface-hub",
+      "installed": "1.11.0",
+      "ok": true
+    },
+    {
+      "requirement": "numpy",
+      "installed": "2.0.2",
+      "ok": true
+    },
+    {
+      "requirement": "pandas",
+      "installed": "2.3.3",
+      "ok": true
+    },
+    {
+      "requirement": "psutil",
+      "installed": "5.9.5",
+      "ok": true
+    },
+    {
+      "requirement": "scikit-learn>=1.3.0",
+      "installed": "1.6.1",
+      "ok": true
+    },
+    {
+      "requirement": "scipy",
+      "installed": "1.16.3",
+      "ok": true
+    },
+    {
+      "requirement": "torch>=2.2",
+      "installed": "2.10.0+cu128",
+      "ok": true
+    },
+    {
+      "requirement": "tqdm>=4.64.0",
+      "installed": "4.67.3",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "version": "v6_recovery_allcat",
+  "n_train": 95609,
+  "n_test_rows": 23902,
+  "n_test_unique_ids": 23666,
+  "selected_feature_budget": 140,
+  "selected_allcat_cutoff": 50,
+  "valid_branches": [
+    "lgb_core",
+    "xgb_core",
+    "cat_core",
+    "xgb_categorical",
+    "lgb_cumulative_ordinal",
+    "catboost_allcat"
+  ],
+  "branch_failures": {},
+  "core_crossfit_qwk": 0.47889859250843714,
+  "final_crossfit_qwk": 0.4788316526993418,
+  "gain_vs_core": -6.693980909533437e-05,
+  "unique_id_diagnostic_qwk": 0.48016158773868045,
+  "boundary_auc": {
+    "auc_gt1": 0.7796106193835466,
+    "auc_gt2": 0.872803066845338,
+    "auc_gt3": 0.8083474818360749,
+    "auc_1_vs_2": 0.7653516502519236
+  },
+  "stable_sidecars": [
+    "lgb_cumulative_ordinal"
+  ],
+  "sidecar_fold_selection_frequency": {
+    "lgb_cumulative_ordinal": 3,
+    "catboost_allcat": 1,
+    "xgb_categorical": 1
+  },
+  "global_export_recipe": {
+    "core_weights": [
+      0.1,
+      0.5,
+      0.4
+    ],
+    "steps": [
+      {
+        "branch": "lgb_cumulative_ordinal",
+        "alpha": 0.2,
+        "gain": 0.00026412917168439076
+      }
+    ],
+    "thresholds": [
+      1.5516791809210828,
+      2.0202286247216796,
+      2.483905555595907
+    ],
+    "cal_qwk": 0.48176145150168903
+  },
+  "beats_0_48231_offline": false,
+  "worth_submitting_gate": false,
+  "top1_candidate_ge_0_61541": false,
+  "submission_rows": 23666,
+  "constraints": [
+    "Only competition-provided files are used.",
+    "No external data/source reconstruction/pretrained external foundation model/manual mapping/leaderboard probing.",
+    "2x5 StratifiedGroupKFold with groups=id.",
+    "No feature scaling for tree models.",
+    "No SMOTE or random oversampling.",
+    "Native missing values are preserved; only train-gap inferred continuous tail sentinels are separated.",
+    "Feature budget and all-cat cutoff are selected on train-only nested probes.",
+    "Final blend weights and thresholds are cross-fitted across primary grouped folds.",
+    "Only sidecars selected in >=2 crossfit folds are eligible for test export."
+  ]
+}

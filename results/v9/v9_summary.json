@@ -1,0 +1,124 @@
+{
+  "version": "v9_tabiclv2_fulltarget",
+  "competition": "Objective Quest DATAQUEST 5.0",
+  "timestamp_utc": "2026-09-04T21:35:53.713244+00:00",
+  "data_manifest": {
+    "data_dir": "/kaggle/input/datasets/tianchristiani150173/oq-dq-5",
+    "train_shape": [
+      95609,
+      179
+    ],
+    "test_shape": [
+      23902,
+      178
+    ],
+    "train_unique_ids": 94663,
+    "test_unique_ids": 23666,
+    "train_duplicate_id_rows": 1892,
+    "test_duplicate_id_rows": 472,
+    "train_sha256": "0ccc7f7aa3d9e7520d1edd0cae30c1ac119fcb4c508fdd7c9ebc871ceaee2056",
+    "test_sha256": "c7027da38aba915e6a9952d21c6cd960b22c172e0ccf3f9f570d63d07e008740",
+    "dictionary_sha256": "4ee1269e4e10fd62225916bb8eff1cd51930a211cb8488d6c97a5b4817e4f631",
+    "sample_sha256": "3b27035c9910f24c7a0cf29f85c1382be423f58cda0524bbd7b0a24ab9e65abf"
+  },
+  "v2_anchor_summary": {
+    "row_level_historical_crossfit_qwk_this_run": 0.4810680499943676,
+    "unique_id_crossfit_qwk_this_run": 0.4794660420797272,
+    "unique_id_auc_gt1": 0.7797972758044079,
+    "unique_id_auc_1v2": 0.7656628691557714,
+    "audit_reference_unique_id_qwk": 0.48062,
+    "public_lb_reference": 0.48193,
+    "selected_sidecars_this_run": [
+      {
+        "branch": "lgb_multiclass_expected",
+        "alpha": 0.45,
+        "score": 0.4810680499943676,
+        "gain": 0.0017609359625633259,
+        "residual_corr_to_current": 0.9968589404139795
+      }
+    ],
+    "note": "Historical V2 sidecar selection is frozen control logic and is not claimed to be fully nested model-selection CV."
+  },
+  "foundation_manifest": {
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+    "torch": "2.10.0+cu128",
+    "cuda_available": true,
+    "gpu_count": 2,
+    "gpus": [
+      {
+        "index": 0,
+        "name": "Tesla T4",
+        "total_memory_gib": 14.56219482421875
+      },
+      {
+        "index": 1,
+        "name": "Tesla T4",
+        "total_memory_gib": 14.56219482421875
+      }
+    ],
+    "tabicl_version": "2.2.0",
+    "tabicl_repo": "jingang/TabICL",
+    "tabicl_checkpoint": "tabicl-regressor-v2-20260212.ckpt",
+    "tabicl_checkpoint_path": "/kaggle/working/oqdq5_v9/hf_cache/models--jingang--TabICL/snapshots/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-regressor-v2-20260212.ckpt",
+    "tabicl_checkpoint_sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+    "tabicl_license": "BSD-3-Clause",
+    "n_estimators_runtime": 1,
+    "n_estimators_screen": 2,
+    "n_estimators_full": 4,
+    "batch_size": 1,
+    "kv_cache": false,
+    "offload_mode": "auto"
+  },
+  "stage_s_summary": {
+    "feature_mode": "full",
+    "resource_fallback": {
+      "used": false,
+      "reason": null,
+      "from": "full",
+      "to": null
+    },
+    "mean_delta_auc_1v2": -0.008909788847464906,
+    "mean_delta_auc_gt1": -0.008450922316947773,
+    "mean_crossscreen_qwk_gain": -0.009541022876559113,
+    "mean_residual_corr_vs_v2": 0.988417058532844,
+    "no_catastrophic_auc_regression": false,
+    "ranking_gate": false,
+    "qwk_gate": false,
+    "diversity_gate": false,
+    "promoted_to_full_cv": false
+  },
+  "resource_fallback": {
+    "used": false,
+    "reason": null,
+    "from": "full",
+    "to": null
+  },
+  "full_summary": {
+    "full_available": false,
+    "feature_mode": "full",
+    "resource_fallback": {
+      "used": false,
+      "reason": null,
+      "from": "full",
+      "to": null
+    },
+    "status": "falsified_at_stage_s",
+    "recommended_candidate": null,
+    "recommended_submission": null
+  },
+  "constraints": [
+    "Competition-provided task data only; no external respondent data or test ground truth.",
+    "Historical V2 control executes before TabICL installation.",
+    "V9 TabICL training/inference rows are one per unique respondent id.",
+    "Identifiers id and household_id are excluded from TabICL features.",
+    "Fold-selected missing flags and nominal typing use outer-train labels only.",
+    "Primary TabICL experiment uses the full feature set; fold-safe top-96 selection is used only if Stage R proves a genuine resource-limit failure.",
+    "TabICL full-target regression only; no binary specialist, fine-tuning, pseudo-labeling, or extra model family.",
+    "Explicit disk offload directory is provided; runtime/model failure is fatal and never falls back to V2.",
+    "Full CV/test inference runs only after preregistered Stage-S promotion.",
+    "Headline QWK uses cross-fitted thresholds at unique respondent level.",
+    "Blend alpha grid is exactly {0, .25, .50, .75, 1}; alpha and thresholds are selected on the other four folds.",
+    "Submission files are created only for candidates passing the preregistered submission gate."
+  ]
+}

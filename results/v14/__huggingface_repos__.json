@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "occams/Xiaomi-TabLDM", "repoType": "model", "commitHash": "0e10427273bc862fb60fe7df84c89e5298e16cc7", "filePaths": ["checkpoints/reg_default.ckpt"]}]}

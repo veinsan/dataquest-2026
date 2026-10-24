@@ -1,0 +1,15 @@
+version,type,failure,scientific_meaning,lesson
+V5.1,submission/data-contract branch,"sample_submission IDs did not equal test IDs; 23,902 vs 23,666 unique test IDs","mapping confusion, not predictive gain",canonical evaluator is unique respondent ID
+V6.1,validation/calibration,global calibration 0.481761 vs honest 0.478832,optimism from direct QWK tuning,cross-fit thresholds/weights
+V8,runtime,EXAONE 404 checkpoint/config; TabICL memory/offload failure,quality unknown for those branches,runtime proof before quality
+V8.1,runtime,venv creation failed,EXAONE quality unknown,isolate package environment
+V8.2,runtime,target-isolated preflight subprocess failed,EXAONE quality unknown,pin runtime and surface root exception
+V8.3,resource,actual EXAONE fold path exceeded T4 memory planner (~33.4 GiB min vs ~13 GiB budget),EXAONE quality unknown,representative preflight must include actual fold scale
+V9,scientific,Stage S all quality gates failed,TabICLv2 full-target falsified,do not confuse runtime success with scientific success
+V10,API,p_interp vs norm_p xRFM API mismatch,none,verify installed API before expensive run
+V10,hardware,"Kermac CUDA requires sm80+, T4 is sm75",none,kernel backend compatibility must be preflighted
+V10,memory,AGOP jacrev/cdist attempted ~641.55 GiB intermediate,none,audit tensor-shape complexity; chunk correct axis
+V10,numerical/runtime,strict Cholesky failed config 10 after 11/12 configs succeeded on Stage S,xRFM quality still unknown,runtime workaround can change numerical assumptions; use solver semantics faithful to library
+V10,artifact provenance,results-v10-error.zip actually contained V9 tree,no V10 predictions reusable,"inspect archive contents, not filename"
+V11,scientific,"delta QWK -0.003205, 0/5 positive, P>0=0",prediction-space stack falsified,stop stacking same prediction manifold
+V12,dependency/provenance,floating TALENT @main + stale hard-coded ModernNCA file SHA mismatch before training,no ModernNCA quality result,pin exact source commit + semantic/API integrity; byte hash must match the pinned source

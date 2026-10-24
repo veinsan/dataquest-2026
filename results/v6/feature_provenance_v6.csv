@@ -1,0 +1,13 @@
+feature,formula,evidence
+row_missing_count,count of NaN across supplied predictors,unsupervised train/test row state
+special_code_count,count of train-inferred separated tail-code flags,train value-gap audit
+functional_difficulty_count,count of supplied difficulty fields equal to affirmative code 1,supplied column family
+chronic_condition_count,count of supplied chronic-condition fields equal to code 1,supplied column family
+cost_barrier_count,count of supplied cost-barrier fields equal to code 1,supplied column family
+income_source_count,count of supplied income-source fields equal to code 1,supplied column family
+insurance_count,count of supplied insurance-source fields equal to code 1,supplied column family
+mental_frequency_burden,reverse score over valid 1..5 depression/anxiety frequency codes,train-observed compact ordinal range
+food_insecurity_burden,reverse score over valid 1..3 food-hardship codes,train-observed compact ordinal range
+household_size_proxy,children_in_household + adults_in_household,supplied household counts
+age_band,age quantile bin from train distribution,train-only unsupervised discretization
+poverty_ratio_band,poverty-ratio quantile bin from train distribution,train-only unsupervised discretization

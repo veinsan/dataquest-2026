@@ -1,0 +1,18 @@
+{
+  "row_level_historical_crossfit_qwk_this_run": 0.4810680499943676,
+  "unique_id_crossfit_qwk_this_run": 0.4794660420797272,
+  "unique_id_auc_gt1": 0.7797972758044079,
+  "unique_id_auc_1v2": 0.7656628691557714,
+  "audit_reference_unique_id_qwk": 0.48062,
+  "public_lb_reference": 0.48193,
+  "selected_sidecars_this_run": [
+    {
+      "branch": "lgb_multiclass_expected",
+      "alpha": 0.45,
+      "score": 0.4810680499943676,
+      "gain": 0.0017609359625633259,
+      "residual_corr_to_current": 0.9968589404139795
+    }
+  ],
+  "note": "Historical V2 sidecar selection is frozen control logic and is not claimed to be fully nested model-selection CV."
+}

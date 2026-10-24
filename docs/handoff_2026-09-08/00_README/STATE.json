@@ -1,0 +1,43 @@
+{
+  "snapshot_date": "2026-09-08",
+  "timezone": "Asia/Jakarta",
+  "competition": "Objective Quest DATAQUEST 5.0",
+  "target": "life_satisfaction",
+  "classes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "metric": "Quadratic Weighted Kappa",
+  "evaluator_entity": "unique respondent id",
+  "train_rows": 95609,
+  "train_unique_ids": 94663,
+  "test_rows": 23902,
+  "test_unique_ids": 23666,
+  "champion": {
+    "name": "CPU recovery ensemble V2+V5.1+V6.1+V7",
+    "public_lb": 0.48334,
+    "rank": 4
+  },
+  "scores_above": [
+    0.48853,
+    0.56232,
+    0.61541
+  ],
+  "v11": {
+    "runtime_success": true,
+    "scientifically_falsified": true,
+    "submit": false,
+    "delta_qwk_vs_recovery": -0.0032051263104545535
+  },
+  "v12": {
+    "name": "ModernNCA Learned-Geometry Full-Target Ordinal Regression",
+    "status": "implementation_debugging_before_training",
+    "scientific_result": null,
+    "latest_failure_type": "source-integrity/provenance implementation failure",
+    "scientific_falsification": false
+  },
+  "immediate_next_action": "make V12 TALENT/ModernNCA installation and source/API provenance reproducible and correct, then Stage R -> Stage S under frozen design",
+  "critical_boundary": "class 1 vs 2"
+}

@@ -1,0 +1,7 @@
+feature,tail_values,train_support,test_support
+height_inches,"[96.0, 97.0, 98.0, 99.0]",6166,1520
+weight_pounds,"[996.0, 997.0, 999.0]",7484,1834
+age,"[97.0, 99.0]",186,47
+hours_worked_per_week,[990.0],482,133
+days_missed_work,"[997.0, 998.0, 999.0]",459,106
+income_to_poverty_ratio,[110.0],485,120

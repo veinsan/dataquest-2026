@@ -1,0 +1,368 @@
+{
+  "artifact_source": "/kaggle/input/datasets/riantamaputra/dataquest-2026-historical-results",
+  "data_dir": "/kaggle/input/competitions/oq-dq-5",
+  "stream_specs": {
+    "v1_lgb": [
+      "v1",
+      "oof_v1.csv",
+      "test_predictions_v1.csv",
+      "oof_lgb_continuous",
+      "test_lgb_continuous",
+      "core_tree"
+    ],
+    "v1_xgb": [
+      "v1",
+      "oof_v1.csv",
+      "test_predictions_v1.csv",
+      "oof_xgb_continuous",
+      "test_xgb_continuous",
+      "core_tree"
+    ],
+    "v1_cat": [
+      "v1",
+      "oof_v1.csv",
+      "test_predictions_v1.csv",
+      "oof_cat_continuous",
+      "test_cat_continuous",
+      "core_tree"
+    ],
+    "v2_lgb_core": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_lgb_core_continuous",
+      "test_lgb_core_continuous",
+      "core_tree"
+    ],
+    "v2_xgb_core": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_xgb_core_continuous",
+      "test_xgb_core_continuous",
+      "core_tree"
+    ],
+    "v2_cat_core": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_cat_core_continuous",
+      "test_cat_core_continuous",
+      "core_tree"
+    ],
+    "v5_lgb": [
+      "v5_1",
+      "oof_v5.csv",
+      "test_predictions_v5.csv",
+      "oof_lgb",
+      "pred_lgb",
+      "core_tree"
+    ],
+    "v5_xgb": [
+      "v5_1",
+      "oof_v5.csv",
+      "test_predictions_v5.csv",
+      "oof_xgb",
+      "pred_xgb",
+      "core_tree"
+    ],
+    "v5_cat": [
+      "v5_1",
+      "oof_v5.csv",
+      "test_predictions_v5.csv",
+      "oof_cat",
+      "pred_cat",
+      "core_tree"
+    ],
+    "v6_lgb": [
+      "v6",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_lgb",
+      "pred_lgb",
+      "core_tree"
+    ],
+    "v6_xgb": [
+      "v6",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_xgb",
+      "pred_xgb",
+      "core_tree"
+    ],
+    "v6_cat": [
+      "v6",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_cat",
+      "pred_cat",
+      "core_tree"
+    ],
+    "v61_lgb_core": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_lgb_core",
+      "test_lgb_core",
+      "core_tree"
+    ],
+    "v61_xgb_core": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_xgb_core",
+      "test_xgb_core",
+      "core_tree"
+    ],
+    "v61_cat_core": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_cat_core",
+      "test_cat_core",
+      "core_tree"
+    ],
+    "v2_lgb_cat": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_lgb_categorical_continuous",
+      "test_lgb_categorical_continuous",
+      "categorical_ordinal"
+    ],
+    "v2_xgb_cat": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_xgb_categorical_continuous",
+      "test_xgb_categorical_continuous",
+      "categorical_ordinal"
+    ],
+    "v2_lgb_mono": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_lgb_monotonic_continuous",
+      "test_lgb_monotonic_continuous",
+      "categorical_ordinal"
+    ],
+    "v2_lgb_mc": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_lgb_multiclass_expected_continuous",
+      "test_lgb_multiclass_expected_continuous",
+      "categorical_ordinal"
+    ],
+    "v2_lgb_cum": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_lgb_cumulative_ordinal_continuous",
+      "test_lgb_cumulative_ordinal_continuous",
+      "categorical_ordinal"
+    ],
+    "v61_xgb_cat": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_xgb_categorical",
+      "test_xgb_categorical",
+      "categorical_ordinal"
+    ],
+    "v61_lgb_cum": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_lgb_cumulative_ordinal",
+      "test_lgb_cumulative_ordinal",
+      "categorical_ordinal"
+    ],
+    "v3_lgb_struct": [
+      "v3",
+      "oof_v3.csv",
+      "test_predictions_v3.csv",
+      "lgb_struct",
+      "lgb_struct",
+      "structural"
+    ],
+    "v3_xgb_struct": [
+      "v3",
+      "oof_v3.csv",
+      "test_predictions_v3.csv",
+      "xgb_struct",
+      "xgb_struct",
+      "structural"
+    ],
+    "v3_cat_dual": [
+      "v3",
+      "oof_v3.csv",
+      "test_predictions_v3.csv",
+      "cat_dual",
+      "cat_dual",
+      "structural"
+    ],
+    "v61_allcat": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_catboost_allcat",
+      "test_catboost_allcat",
+      "allcat"
+    ],
+    "v1_ensemble": [
+      "v1",
+      "oof_v1.csv",
+      "test_predictions_v1.csv",
+      "oof_ensemble_continuous",
+      "test_ensemble_continuous",
+      "alternate_gbdt"
+    ],
+    "v2_core": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_core_continuous",
+      "test_core_continuous",
+      "alternate_gbdt"
+    ],
+    "v2_final": [
+      "v2",
+      "oof_v2.csv",
+      "test_predictions_v2.csv",
+      "oof_final_continuous",
+      "test_final_continuous",
+      "alternate_gbdt"
+    ],
+    "v3_final": [
+      "v3",
+      "oof_v3.csv",
+      "test_predictions_v3.csv",
+      "final_score",
+      "final_score",
+      "alternate_gbdt"
+    ],
+    "v5_final": [
+      "v5_1",
+      "oof_v5.csv",
+      "test_predictions_v5.csv",
+      "oof_final_honest_continuous",
+      "pred_final_continuous",
+      "alternate_gbdt"
+    ],
+    "v6_final": [
+      "v6",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_final_crossfit",
+      "pred_final_continuous",
+      "alternate_gbdt"
+    ],
+    "v61_final": [
+      "v6_1",
+      "oof_v6.csv",
+      "test_predictions_v6.csv",
+      "oof_final_crossfit",
+      "pred_final_continuous",
+      "alternate_gbdt"
+    ],
+    "v7_stack": [
+      "v7",
+      "oof_v7.csv",
+      "test_scores_v7.csv",
+      "v7_stack",
+      "v7_stack",
+      "alternate_gbdt"
+    ],
+    "v8_stack": [
+      "v8",
+      "oof_v8.csv",
+      "test_scores_v8.csv",
+      "v8_stack",
+      "v8_stack",
+      "alternate_gbdt"
+    ],
+    "v81_final": [
+      "v8_1",
+      "oof_v8_1.csv",
+      "test_scores_v8_1.csv",
+      "final_score",
+      "final_score",
+      "alternate_gbdt"
+    ],
+    "v82_final": [
+      "v8_2",
+      "oof_v8_2.csv",
+      "test_scores_v8_2.csv",
+      "final_score",
+      "final_score",
+      "alternate_gbdt"
+    ],
+    "v83_final": [
+      "v8_3",
+      "oof_v8_3.csv",
+      "test_scores_v8_3.csv",
+      "final_score",
+      "final_score",
+      "alternate_gbdt"
+    ],
+    "v7_anchor": [
+      "v7",
+      "oof_v7.csv",
+      "test_scores_v7.csv",
+      "v2_anchor",
+      "v2_anchor",
+      "repeated_anchor"
+    ],
+    "v8_anchor": [
+      "v8",
+      "oof_v8.csv",
+      "test_scores_v8.csv",
+      "v2_anchor",
+      "v2_anchor",
+      "repeated_anchor"
+    ],
+    "v81_anchor": [
+      "v8_1",
+      "oof_v8_1.csv",
+      "test_scores_v8_1.csv",
+      "v2_exact_score",
+      "v2_exact_score",
+      "repeated_anchor"
+    ],
+    "v82_anchor": [
+      "v8_2",
+      "oof_v8_2.csv",
+      "test_scores_v8_2.csv",
+      "v2_exact_score",
+      "v2_exact_score",
+      "repeated_anchor"
+    ],
+    "v83_anchor": [
+      "v8_3",
+      "oof_v8_3.csv",
+      "test_scores_v8_3.csv",
+      "v2_exact_score",
+      "v2_exact_score",
+      "repeated_anchor"
+    ]
+  },
+  "recovery_components": [
+    "v2_final",
+    "v5_final",
+    "v61_final",
+    "v7_stack"
+  ],
+  "recovery_final_weights": [
+    0.5333147962860486,
+    0.2160045364556684,
+    0.20393903979487613,
+    0.0467416274634069
+  ],
+  "recovery_final_thresholds": [
+    1.5694444444444446,
+    2.011875,
+    2.5100000000000002
+  ],
+  "seed": 42
+}

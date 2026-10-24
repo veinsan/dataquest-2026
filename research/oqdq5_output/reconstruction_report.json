@@ -1,0 +1,26 @@
+{
+  "verified_source": "CDC/NCHS National Health Interview Survey Sample Adult 2021-2024",
+  "verified_target": "LSATIS4_A; 2021 public-use recode LSATIS4R_A",
+  "verified_unique_total": 118329,
+  "verified_total_label_counts": [
+    53190,
+    59641,
+    4389,
+    1109
+  ],
+  "train_unique_label_counts": [
+    42552,
+    47713,
+    3511,
+    887
+  ],
+  "verified_exact_test_label_counts": [
+    10638,
+    11928,
+    878,
+    222
+  ],
+  "row_level_status": "candidate reconstruction, not cryptographically/directly verified against original CDC microdata",
+  "method": "LightGBM probability ranking + exact official class-count constraints",
+  "important": "Do not describe ground_truth.csv as guaranteed 100% per-row ground truth unless direct microdata join is completed."
+}

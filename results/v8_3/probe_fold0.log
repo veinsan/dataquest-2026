@@ -1,0 +1,29 @@
+using user-supplied weights at /kaggle/working/oqdq5_v8_3/exaone_hf_cache/models--LG-AI-Research--EXAONE-Tabular/snapshots/093ad1c2613e1e95d26df8610451d2e02ed53cbe/exaone-tabular-classifier-v1_default.safetensors; released-checkpoint integrity pin not enforced (SHA-256 not checked)
+Traceback (most recent call last):
+  File "/kaggle/working/oqdq5_v8_3/exaone_worker.py", line 196, in <module>
+    p_valid=positive_probability(model,X_valid)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_worker.py", line 22, in positive_probability
+    probabilities=np.asarray(model.predict_proba(X),dtype=np.float64)
+                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/classifier.py", line 312, in predict_proba
+    probabilities = self._infer_problem(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/classifier.py", line 381, in _infer_problem
+    logits = self._forward_chunked(ens_xs, ens_ys, ens_xq)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/classifier.py", line 404, in _forward_chunked
+    return self._executor().forward(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/_execution.py", line 822, in forward
+    execution_plan = self._plan_with_budget(
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/_execution.py", line 725, in _plan_with_budget
+    plan = self.plan_cuda_execution(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/_execution.py", line 513, in plan_cuda_execution
+    joined = plan_chunks(((PeakMemoryMode.JOINED, True),), required=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/oqdq5_v8_3/exaone_site/exaonetabular/_execution.py", line 477, in plan_chunks
+    raise RuntimeError(
+RuntimeError: detected VRAM cannot fit the minimum model forward; mode=feature_attention, support_rows=72932, query_rows=1, feature_count=100, members=1, feature_attention_row_chunk=1, estimated_reserved_bytes=33405534208, target_vram_bytes=13958643712

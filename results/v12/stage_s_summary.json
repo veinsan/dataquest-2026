@@ -1,0 +1,25 @@
+{
+  "mean_delta_auc_1v2": -0.0043373497048324605,
+  "mean_delta_auc_ygt1": -0.004237685067410957,
+  "mean_delta_qwk": -0.010239081900547342,
+  "residual_corr": 0.9923181243084308,
+  "prediction_corr": 0.9794428530660368,
+  "score_delta_quantiles": [
+    -0.7285690102070213,
+    -0.17560840416036697,
+    -0.10051037018680153,
+    -0.03453197626179938,
+    0.003122395180123916,
+    0.03857834129757087,
+    0.09744482405025473,
+    0.15830599424468086,
+    0.5708660702097461
+  ],
+  "mean_abs_score_delta": 0.047332905446649705,
+  "no_catastrophic_auc_regression": true,
+  "ranking_gate": false,
+  "qwk_gate": false,
+  "novelty_critical_auc_ok": false,
+  "novelty_gate": false,
+  "promoted": false
+}

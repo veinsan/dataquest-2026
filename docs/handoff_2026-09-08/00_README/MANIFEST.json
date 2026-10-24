@@ -1,0 +1,202 @@
+{
+  "handoff": "DATAQUEST_5_COMPLETE_HANDOFF",
+  "snapshot": "2026-09-08",
+  "manifest_self_excluded": true,
+  "file_count_excluding_manifest": 38,
+  "files": [
+    {
+      "path": "00_README/CURRENT_ACTIONABLE_HANDOFF.md",
+      "bytes": 6965,
+      "sha256": "06c07c17c9eab3c21b946b7482858f4628b0ccd724d7b2d95bd6bcd5a8f3b497"
+    },
+    {
+      "path": "00_README/README.md",
+      "bytes": 2937,
+      "sha256": "e6825e7073de9a0c2f1e9922eb709353f23d0b3e03f96dafa0561a5131be10bf"
+    },
+    {
+      "path": "00_README/STATE.json",
+      "bytes": 1218,
+      "sha256": "66c7714c805f1ffaa89ce370373a3bc47aecbf7fb6c3dd211cde52f61ed5f17d"
+    },
+    {
+      "path": "01_COMPETITION_AND_DATA/COMPETITION_CONTRACT.md",
+      "bytes": 2176,
+      "sha256": "f097f7e45b7d9624b39b07d159cabf7542dd1d1ef35bc4df8f86da529ef98d16"
+    },
+    {
+      "path": "01_COMPETITION_AND_DATA/DATASET_AUDIT.md",
+      "bytes": 4007,
+      "sha256": "e126422b50f074e5d03c42739312ff9a2b4e71b82affe4488757b13806af66a5"
+    },
+    {
+      "path": "01_COMPETITION_AND_DATA/DATA_PROVENANCE.md",
+      "bytes": 731,
+      "sha256": "720ecab92323e98ce680c33f21b337a3a602f2c2bd501ee5fbf81113b5e2462c"
+    },
+    {
+      "path": "02_DATA_AUDIT_AND_VALIDATION/LEAKAGE_AND_EVALUATOR.md",
+      "bytes": 1421,
+      "sha256": "42c6e5cf72cab4fe0d556e297876e2080b048b01c5d517f1f4e1b16f691bc188"
+    },
+    {
+      "path": "02_DATA_AUDIT_AND_VALIDATION/SIGNAL_AND_BOUNDARY_DIAGNOSIS.md",
+      "bytes": 1536,
+      "sha256": "cd3603b6964d0719fef6e46e1d1c23d2887b1f35d865eaaaa0389343a4443743"
+    },
+    {
+      "path": "02_DATA_AUDIT_AND_VALIDATION/VALIDATION_CONTRACT.md",
+      "bytes": 2818,
+      "sha256": "a630c885d7bf8b7df4f4d226f903140f6365bd38ef223848f677313a89db84ff"
+    },
+    {
+      "path": "03_EXPERIMENT_HISTORY/EXPERIMENT_HISTORY_V1_V12.md",
+      "bytes": 11963,
+      "sha256": "154fb197f688035972bd72d115bd704df8b4347133fa596318992e20348ca173"
+    },
+    {
+      "path": "03_EXPERIMENT_HISTORY/V10_DEBUGGING_LINEAGE.md",
+      "bytes": 3208,
+      "sha256": "0978080664b2e646a8ff4e1fbb530e55d0e8a68694b194cbfe91b3987bf58e9e"
+    },
+    {
+      "path": "03_EXPERIMENT_HISTORY/experiment_matrix.csv",
+      "bytes": 6731,
+      "sha256": "2024233d3dadfe92f257bb453717f3597a76359f1b6747ae419770b5ee0a77d6"
+    },
+    {
+      "path": "04_SUBMISSIONS_AND_LEADERBOARD/LEADERBOARD_AND_SUBMISSIONS.md",
+      "bytes": 1207,
+      "sha256": "d0a4fc574982ae5570be271516dbd11bfe23b0b25639af2fa9fe6973a12cf8ff"
+    },
+    {
+      "path": "04_SUBMISSIONS_AND_LEADERBOARD/RECOVERY_ENSEMBLE_CHAMPION.md",
+      "bytes": 2191,
+      "sha256": "099b73acf8cd817d174e6b172eba093c1a7a488bbb1be8ccf030e5953d38e4b6"
+    },
+    {
+      "path": "04_SUBMISSIONS_AND_LEADERBOARD/submission_history.csv",
+      "bytes": 359,
+      "sha256": "c527f6c3f0a6089e6da079d03535019767a26c88010210c838f0322bf27b282c"
+    },
+    {
+      "path": "05_MODELING_AND_FEATURE_FINDINGS/MODEL_AND_FEATURE_FINDINGS.md",
+      "bytes": 1845,
+      "sha256": "58ba532b42881fe6b2c827a0b3c48d8525d88069b5d2bebd52b70d86f10b77dc"
+    },
+    {
+      "path": "05_MODELING_AND_FEATURE_FINDINGS/PREDICTION_BEHAVIOR_AND_ENSEMBLES.md",
+      "bytes": 1392,
+      "sha256": "5576f72c8469ce0971daed1c16c64a43e831eef4b41df40606e213af86aea53d"
+    },
+    {
+      "path": "06_RESEARCH_AND_HYPOTHESES/LITERATURE_AND_MODEL_RESEARCH.md",
+      "bytes": 2924,
+      "sha256": "1f46de8032e8ec8426de58f8957386cd8038d0a51561e45cece85c9bf4030c24"
+    },
+    {
+      "path": "06_RESEARCH_AND_HYPOTHESES/UPDATED_HYPOTHESIS_SPACE.md",
+      "bytes": 2271,
+      "sha256": "f198326147eecf438ca12f1c55118d23698a697d9a4c43e05566e335c67813f0"
+    },
+    {
+      "path": "06_RESEARCH_AND_HYPOTHESES/hypothesis_status.csv",
+      "bytes": 2688,
+      "sha256": "7e878b4b45820cff15929e0a6177192a24ecbb25d34c2de61b870d7747eb2967"
+    },
+    {
+      "path": "07_FAILURES_AND_DEBUGGING/FAILURE_TAXONOMY.md",
+      "bytes": 1091,
+      "sha256": "9dd4c0d9b77cc36a79ecf113dd67d96c88cbb82f09e4072e6082eb99e087c38e"
+    },
+    {
+      "path": "07_FAILURES_AND_DEBUGGING/RUNTIME_DEBUGGING_HISTORY.md",
+      "bytes": 2184,
+      "sha256": "06b036a5e11c7809c9cb7cb77c86b25db56a7d96cdc28ba5d6ede6e2839cfb3b"
+    },
+    {
+      "path": "07_FAILURES_AND_DEBUGGING/failure_timeline.csv",
+      "bytes": 2087,
+      "sha256": "a44843b75f0eb8bef050ada1d4a7c085f01d6e48b3289be0054b1426b30bb094"
+    },
+    {
+      "path": "08_CURRENT_STATE_AND_NEXT_ACTIONS/CURRENT_STATE.md",
+      "bytes": 1098,
+      "sha256": "f4fe7845004788a55de7ee0d31f9cbe114d7dc0d39bdfa0f60cab2d61d376e59"
+    },
+    {
+      "path": "08_CURRENT_STATE_AND_NEXT_ACTIONS/DO_NOT_REPEAT.md",
+      "bytes": 889,
+      "sha256": "62cde4aa92dffba73bdd6e088e97f67a0b4ae22a78dc0a6f53dd423b5380dfb2"
+    },
+    {
+      "path": "08_CURRENT_STATE_AND_NEXT_ACTIONS/V12_BLOCKER_AND_NEXT_ACTION.md",
+      "bytes": 1920,
+      "sha256": "e747ace2ad0ebf5b80b6f3ed7f1a623822b3b51a7af1ad560c3dacb51092d25a"
+    },
+    {
+      "path": "09_EXPERIMENT_CONTRACTS/CONTRACT_V10_XRFM.md",
+      "bytes": 1086,
+      "sha256": "1efd3a84db97f8c69b1717501533fbd7f511389b966a3a551fabd684e5e53850"
+    },
+    {
+      "path": "09_EXPERIMENT_CONTRACTS/CONTRACT_V11_STACKER.md",
+      "bytes": 1698,
+      "sha256": "7ca2f23d7d614cd9ae1648ed4523741a4beac5d2bcf881573415aabade3cccd4"
+    },
+    {
+      "path": "09_EXPERIMENT_CONTRACTS/CONTRACT_V12_MODERNNCA.md",
+      "bytes": 5903,
+      "sha256": "52fe77163a744ed4be87ec238d17e57ae9126122f46b4b3e20202a9fad17af35"
+    },
+    {
+      "path": "09_EXPERIMENT_CONTRACTS/CONTRACT_V2_ANCHOR.md",
+      "bytes": 934,
+      "sha256": "73371312b1393897f1f6856a9db5cb1a24be401c042386ed78c3ef8763309ed0"
+    },
+    {
+      "path": "09_EXPERIMENT_CONTRACTS/CONTRACT_V9_TABICL.md",
+      "bytes": 1074,
+      "sha256": "b5ea523572ba3f148091c41180173c5368120c1d2d6c63b22b8433f005aa3176"
+    },
+    {
+      "path": "09_EXPERIMENT_CONTRACTS/V12_FROZEN_HPO_CONFIGS.json",
+      "bytes": 4906,
+      "sha256": "3d8196cf7abc8c80b32e8aaaa60a175b644c40c2f80ae01b2735785009b3963b"
+    },
+    {
+      "path": "10_RESEARCH_LOG/CHRONOLOGY.md",
+      "bytes": 2151,
+      "sha256": "a47aae75205141e43ce1a5b6684aa111910120e98549179f82d4cf1f8ae2cb6e"
+    },
+    {
+      "path": "10_RESEARCH_LOG/DECISION_REGISTER.md",
+      "bytes": 1812,
+      "sha256": "41bc0ec3436d787638ae69f281b95f0f25c7eacd043a42885d1d67f7e299bd12"
+    },
+    {
+      "path": "10_RESEARCH_LOG/OPEN_ITEMS.md",
+      "bytes": 977,
+      "sha256": "42e4373b4462b1cd4b99137d991c26dbe15b93e078e1afeac73317a028979581"
+    },
+    {
+      "path": "11_ARTIFACT_PROVENANCE/ARTIFACT_CATALOG.md",
+      "bytes": 2068,
+      "sha256": "2fbfb7d26040e61b9650bd87b274ddfe87137cf530759f2cc297db6f4eb6001e"
+    },
+    {
+      "path": "11_ARTIFACT_PROVENANCE/EXCLUSIONS.md",
+      "bytes": 360,
+      "sha256": "31d6de5d2d22f0c888eaf92e2bb806ff166a51b11668f2400874a86957b409b5"
+    },
+    {
+      "path": "11_ARTIFACT_PROVENANCE/artifact_hashes.csv",
+      "bytes": 1804,
+      "sha256": "344e6be7dd5d0ff8ed4d357791a6fbe51480460a9dc2757b13912d42c8079692"
+    }
+  ],
+  "raw_data_included": false,
+  "notebooks_included": false,
+  "submission_included": false,
+  "prediction_arrays_included": false
+}

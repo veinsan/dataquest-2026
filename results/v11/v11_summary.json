@@ -1,0 +1,171 @@
+{
+  "version": "v11_historical_prediction_portfolio_ordinal_stacker",
+  "seed": 42,
+  "cpu_only": true,
+  "base_models_retrained": false,
+  "artifact_source": "/kaggle/input/datasets/riantamaputra/dataquest-2026-historical-results",
+  "data_dir": "/kaggle/input/competitions/oq-dq-5",
+  "eligible_versions": [
+    "v1",
+    "v2",
+    "v3",
+    "v5_1",
+    "v6",
+    "v6_1",
+    "v7",
+    "v8",
+    "v8_1",
+    "v8_2",
+    "v8_3"
+  ],
+  "excluded_versions": [
+    "v9",
+    "v10"
+  ],
+  "n_explicit_streams": 43,
+  "n_unique_streams": 40,
+  "families": {
+    "core_tree": [
+      "v1_lgb",
+      "v1_xgb",
+      "v1_cat",
+      "v2_lgb_core",
+      "v2_xgb_core",
+      "v2_cat_core",
+      "v5_lgb",
+      "v5_xgb",
+      "v5_cat",
+      "v6_lgb",
+      "v6_xgb",
+      "v6_cat",
+      "v61_lgb_core",
+      "v61_xgb_core",
+      "v61_cat_core"
+    ],
+    "categorical_ordinal": [
+      "v2_lgb_cat",
+      "v2_xgb_cat",
+      "v2_lgb_mono",
+      "v2_lgb_mc",
+      "v2_lgb_cum",
+      "v61_xgb_cat",
+      "v61_lgb_cum"
+    ],
+    "structural": [
+      "v3_lgb_struct",
+      "v3_xgb_struct",
+      "v3_cat_dual"
+    ],
+    "alternate_gbdt": [
+      "v1_ensemble",
+      "v2_core",
+      "v2_final",
+      "v3_final",
+      "v5_final",
+      "v6_final",
+      "v61_final",
+      "v7_stack",
+      "v8_stack",
+      "v81_final",
+      "v82_final",
+      "v83_final"
+    ],
+    "allcat": [
+      "v61_allcat"
+    ],
+    "repeated_anchor": [
+      "v7_anchor",
+      "v8_anchor"
+    ]
+  },
+  "frozen_recovery_public_lb": 0.48334,
+  "metrics": {
+    "recovery_qwk": 0.48186721909562624,
+    "v11_crossfit_qwk": 0.4786620927851717,
+    "delta_qwk": -0.0032051263104545535,
+    "recovery_auc_1v2": 0.7657964184802133,
+    "v11_auc_1v2": 0.7657748372584973,
+    "delta_auc_1v2": -2.1581221716027166e-05,
+    "recovery_auc_ygt1": 0.779980058800323,
+    "v11_auc_ygt1": 0.7799566045925316,
+    "delta_auc_ygt1": -2.3454207791373527e-05,
+    "v11_rmse": 0.5155023915523831,
+    "recovery_rmse": 0.5152669061211503,
+    "v11_mae": 0.4252168545101659,
+    "recovery_mae": 0.4268770243838855,
+    "v11_spearman": 0.5100083011658126,
+    "recovery_spearman": 0.5100481059960007,
+    "prediction_corr_vs_recovery": 0.997157976099462,
+    "residual_corr_vs_recovery": 0.9988344995270648,
+    "label_change_rate_vs_recovery": 0.0429206765050759,
+    "label_change_n_vs_recovery": 4063,
+    "bootstrap_p_gt_0": 0.0,
+    "bootstrap_95": [
+      -0.004889257171583519,
+      -0.0014616745706173496
+    ],
+    "positive_folds": 0,
+    "min_fold_delta": -0.0062762517930975426,
+    "global_qwk_diagnostic": 0.48155915709087405,
+    "global_delta_diagnostic": -0.00030806200475219647,
+    "global_only_red_flag": false,
+    "collapse_red_flag": false,
+    "falsified": true,
+    "promoted": false,
+    "top3_challenge_gate": false
+  },
+  "selected_C_by_outer_fold": [
+    {
+      "outer_fold": 0,
+      "C": 0.01
+    },
+    {
+      "outer_fold": 1,
+      "C": 0.01
+    },
+    {
+      "outer_fold": 2,
+      "C": 0.01
+    },
+    {
+      "outer_fold": 3,
+      "C": 0.01
+    },
+    {
+      "outer_fold": 4,
+      "C": 0.01
+    }
+  ],
+  "final_C": null,
+  "final_thresholds": null,
+  "submission_path": null,
+  "test_predictions_path": null,
+  "validation_note": "Meta-level nested validation uses completed row-wise OOF base predictions; base models are not refit inside V11 outer folds. Historical fold compatibility is recorded in stream_provenance.csv.",
+  "gates": {
+    "falsification": {
+      "delta_qwk_and_auc_floor": [
+        0.0005,
+        0.001
+      ],
+      "min_positive_folds": 3
+    },
+    "promotion": {
+      "delta_qwk": 0.0015,
+      "positive_folds": 4,
+      "min_fold_delta": -0.0015,
+      "bootstrap_p": 0.9,
+      "auc_1v2_nonregression": true
+    },
+    "top3_challenge": {
+      "delta_qwk": 0.0025,
+      "or_delta_auc_1v2": 0.004
+    }
+  },
+  "package_versions": {
+    "python": "3.12.13",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.6.1"
+  }
+}

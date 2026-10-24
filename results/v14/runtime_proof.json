@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "stage": "runtime",
+  "fold": 0,
+  "seed": 14017,
+  "n_estimators": 1,
+  "train_rows": 75730,
+  "valid_rows_predicted": 1792,
+  "test_rows_predicted": 0,
+  "query_chunk_rows": 1792,
+  "valid_predict_calls": 1,
+  "test_predict_calls": 0,
+  "safe_mode": false,
+  "features": 176,
+  "nominal_features": 158,
+  "runtime_sec": 44.17833924293518,
+  "cuda_name": "Tesla T4",
+  "cuda_total_gib": 14.56219482421875,
+  "max_cuda_alloc_gib": 14.25057077407837,
+  "cuda_peak_fraction": 0.9786004751411435,
+  "peak_rss_gib": 2.523101806640625,
+  "offload_dir": "/kaggle/temp/oqdq5_v14_tabldm_offload/runtime_fold0"
+}

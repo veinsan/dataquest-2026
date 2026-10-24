@@ -1,0 +1,90 @@
+{
+  "TALENT_commit": "1b973adffa4203c3f62c4949957b1ba3efbe60d3",
+  "modernNCA_model_sha256": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f",
+  "modernNCA_method_sha256": "91348eac32918fb5fe74f6f8813e3966b434bc2c994eb4bc19cba0c69d018565",
+  "model_sha_matches_failed_run_audit": true,
+  "config_manifest_sha256": "ab65458a3176ab4c48f706fee2ff93a9a927b4eab3ad9fcdb64d3eb410ced72d",
+  "dependency_report": [
+    {
+      "requirement": "tqdm>=4.66.4",
+      "installed": "4.67.3",
+      "ok": true
+    },
+    {
+      "requirement": "category_encoders>=2.6.3",
+      "installed": "2.9.0",
+      "ok": true
+    },
+    {
+      "requirement": "delu>=0.0.23",
+      "installed": "0.0.26",
+      "ok": true
+    },
+    {
+      "requirement": "einops>=0.8.0",
+      "installed": "0.8.2",
+      "ok": true
+    },
+    {
+      "requirement": "numpy>=1.26.4",
+      "installed": "2.0.2",
+      "ok": true
+    },
+    {
+      "requirement": "optuna>=3.6.1",
+      "installed": "3.6.1",
+      "ok": true
+    },
+    {
+      "requirement": "pandas>=2.2.2",
+      "installed": "2.3.3",
+      "ok": true
+    },
+    {
+      "requirement": "qhoptim>=1.1.0",
+      "installed": "1.1.0",
+      "ok": true
+    },
+    {
+      "requirement": "Requests>=2.31.0",
+      "installed": "2.32.4",
+      "ok": true
+    },
+    {
+      "requirement": "scikit_learn>=1.4.2",
+      "installed": "1.6.1",
+      "ok": true
+    },
+    {
+      "requirement": "scipy>=1.13.0",
+      "installed": "1.16.3",
+      "ok": true
+    },
+    {
+      "requirement": "torch>=2.8.0",
+      "installed": "2.10.0+cu128",
+      "ok": true
+    }
+  ],
+  "constructor": [
+    "self",
+    "d_in",
+    "d_num",
+    "d_out",
+    "dim",
+    "dropout",
+    "d_block",
+    "n_blocks",
+    "num_embeddings",
+    "temperature",
+    "sample_rate"
+  ],
+  "forward_signature": [
+    "self",
+    "x",
+    "y",
+    "candidate_x",
+    "candidate_y",
+    "is_train"
+  ]
+}

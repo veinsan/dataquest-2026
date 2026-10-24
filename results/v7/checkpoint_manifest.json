@@ -1,0 +1,9 @@
+{
+  "repo": "Prior-Labs/tabpfn_3",
+  "revision": "e923ba9be85784206c9e2f43b0035c84d5fd5747",
+  "classifier_file": "tabpfn-v3-classifier-v3_default.ckpt",
+  "classifier_sha256": "d0d865d54dfbc524f5703104be90620182dca7e5fb2c16de72e9959ea18f3988",
+  "regressor_file": "tabpfn-v3-regressor-v3_default.ckpt",
+  "regressor_sha256": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301",
+  "tabpfn_version": "8.5.0"
+}

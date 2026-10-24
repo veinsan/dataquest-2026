@@ -1,0 +1,40 @@
+{
+  "target": "life_satisfaction",
+  "id_col": "id",
+  "household_col": "household_id",
+  "n_folds": 5,
+  "expected_train_rows": 95609,
+  "expected_train_ids": 94663,
+  "expected_test_rows": 23902,
+  "expected_test_ids": 23666,
+  "screen_folds": [
+    0,
+    2
+  ],
+  "train_seeds": [
+    42,
+    2026
+  ],
+  "batch_size": 1024,
+  "max_epoch": 200,
+  "patience": 20,
+  "infer_batch": 256,
+  "bootstrap_reps": 2000,
+  "recovery_lb": 0.48334,
+  "stage_auc_gain": 0.005,
+  "stage_catastrophic_auc": -0.005,
+  "stage_qwk_gain": 0.002,
+  "stage_novel_qwk_floor": -0.0015,
+  "stage_novel_resid_corr": 0.95,
+  "stage_novel_auc_floor": -0.001,
+  "scientific_qwk_gain": 0.002,
+  "submission_qwk_gain": 0.0015,
+  "submission_boot_p": 0.9,
+  "submission_min_fold": -0.0015,
+  "challenge_qwk_gain": 0.0025,
+  "challenge_auc_gain": 0.005,
+  "talent_commit": "1b973adffa4203c3f62c4949957b1ba3efbe60d3",
+  "modernnca_model_sha256": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f",
+  "modernnca_method_sha256": "91348eac32918fb5fe74f6f8813e3966b434bc2c994eb4bc19cba0c69d018565",
+  "config_manifest_sha256": "ab65458a3176ab4c48f706fee2ff93a9a927b4eab3ad9fcdb64d3eb410ced72d"
+}

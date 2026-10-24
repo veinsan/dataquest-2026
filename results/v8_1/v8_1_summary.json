@@ -1,0 +1,51 @@
+{
+  "version": "v8_1_exaone_conditional",
+  "anchor_source": "oq_dq_5_v2.ipynb",
+  "anchor_crossfit_qwk": 0.4811099714315612,
+  "anchor_gate_minimum": 0.481,
+  "anchor_gate_passed": true,
+  "exaone_runtime_ready": false,
+  "exaone_runtime_error": "CalledProcessError(1, ['/usr/bin/python3', '-m', 'venv', '--system-site-packages', '/kaggle/working/oqdq5_v8_1/exaone_venv'])",
+  "exaone_runtime_manifest": {
+    "error": "CalledProcessError(1, ['/usr/bin/python3', '-m', 'venv', '--system-site-packages', '/kaggle/working/oqdq5_v8_1/exaone_venv'])"
+  },
+  "probe_folds": [
+    0,
+    2,
+    3
+  ],
+  "probe_summary": {
+    "wins": 0,
+    "mean_delta_auc_1v2": NaN,
+    "mean_delta_b1": NaN
+  },
+  "exaone_promoted": false,
+  "exaone_full_ok": false,
+  "best_candidate": null,
+  "best_cf": 0.4811099714315612,
+  "best_gain": 0.0,
+  "best_positive_folds": 0,
+  "best_b1": 0.7797681640977701,
+  "candidate_accepted": false,
+  "candidate_error": null,
+  "fallback_exact_v2": true,
+  "positive_ridge_evaluated": false,
+  "positive_ridge_skip_reason": "Would require nested V2 level-0 predictions beyond approved 5-fold scope",
+  "final_thresholds": [
+    1.5638827604857735,
+    2.0253737117668202,
+    2.5910511485221535
+  ],
+  "worth_submission": false,
+  "serious_top3_candidate": false,
+  "submission_rows": 23666,
+  "submission_unique_ids": 23666,
+  "official_pins": {
+    "runtime_repo": "https://github.com/LGAI-Research/EXAONE-Tabular.git",
+    "runtime_revision": "8638e07d09fad154249bd75ba4786181491f7025",
+    "hf_repo": "LG-AI-Research/EXAONE-Tabular",
+    "hf_revision": "093ad1c2613e1e95d26df8610451d2e02ed53cbe",
+    "checkpoint": "exaone-tabular-classifier-v1_default.safetensors",
+    "checkpoint_sha256": "2aa723e024e5c56c778d6c79cc3cee7675d1b6a03c06fa08c80e620e228b224d"
+  }
+}

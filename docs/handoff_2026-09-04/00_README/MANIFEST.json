@@ -1,0 +1,102 @@
+{
+  "project": "Objective Quest DATAQUEST 5.0",
+  "snapshot_date": "2026-09-04",
+  "file_count_before_manifest": 19,
+  "files": [
+    {
+      "path": "00_README/HANDOFF.json",
+      "bytes": 2374,
+      "sha256": "2310315b315c68ae93643e0cfbb0cee001ff1c611002135f204c0664a5525bf6"
+    },
+    {
+      "path": "00_README/HANDOFF_STATUS.md",
+      "bytes": 1841,
+      "sha256": "2892204edad66febe6acbbbe6d8114d2e965c825d44939699344b8ad0bf411b0"
+    },
+    {
+      "path": "00_README/README.md",
+      "bytes": 5007,
+      "sha256": "bdb0278930345a2b1405585cd47bcf12e0a8adc4b58fc807e0c0f91b4d0cf073"
+    },
+    {
+      "path": "01_COMPETITION_DATA/COMPETITION_CONTRACT.md",
+      "bytes": 2667,
+      "sha256": "ab2d33cb9df9b767ebc4ef05a061f5bd83357ca69f337e8c2a52129f21e543a0"
+    },
+    {
+      "path": "02_DATASET_AUDIT/DATASET_AUDIT.md",
+      "bytes": 5192,
+      "sha256": "8b90d851b60b030e9f6d1f2f45b4c448c30af7f4ab00dfc9654dfe954bdb8ee8"
+    },
+    {
+      "path": "03_VALIDATION_LEAKAGE/VALIDATION_AND_LEAKAGE.md",
+      "bytes": 4812,
+      "sha256": "82e07237088009acaeadb143fbd06c48be20f4219269cec827d94f58767329c8"
+    },
+    {
+      "path": "04_EXPERIMENT_TIMELINE/V1_TO_V8_2.md",
+      "bytes": 11674,
+      "sha256": "23111451fc65903acb13171b97a544eec538b02f7bb37d5125363e9d0f3d6004"
+    },
+    {
+      "path": "04_EXPERIMENT_TIMELINE/VERSION_STATUS_MATRIX.md",
+      "bytes": 1729,
+      "sha256": "fca866f6f4d2631ee6742baa23e13dd2c2f6f0f7015aaaee27987b103c768681"
+    },
+    {
+      "path": "05_LEADERBOARD/LEADERBOARD_HISTORY.md",
+      "bytes": 2285,
+      "sha256": "a5b2e26999473e075c244e05f7d2c4c0d218f0c50c7c91c5ac19ab0c8692b32e"
+    },
+    {
+      "path": "06_MODEL_RESEARCH/MODEL_PRIORITY_MATRIX.md",
+      "bytes": 1416,
+      "sha256": "cec76d6c4a1c2f2f750413e83a5888e01deb23ffb5d83223964b5eaaf3437d24"
+    },
+    {
+      "path": "06_MODEL_RESEARCH/MODEL_RESEARCH.md",
+      "bytes": 5353,
+      "sha256": "ddef6d365608beff9af2071f2aaf3a7f6f5adf45e95959c9d5335e0e95c0bbc5"
+    },
+    {
+      "path": "07_FAILED_IDEAS/FAILED_AND_FROZEN_IDEAS.md",
+      "bytes": 4769,
+      "sha256": "d34bd93bab68f6632a50f3a01340dcc0dd57e0a42cc65a97970b0df0029d1f02"
+    },
+    {
+      "path": "08_NEXT_STEP_V8_3/EXAONE_RUNTIME_DEBUGGING_PLAN.md",
+      "bytes": 7968,
+      "sha256": "c3f044e25d37cb4515cb5d4b879751b880a9be21bfff489a4ad82d6e616b13f9"
+    },
+    {
+      "path": "08_NEXT_STEP_V8_3/V8_3_EXIT_CRITERIA.md",
+      "bytes": 1928,
+      "sha256": "c44a67095e9c9d04b0165ee824a45efdf1ffa8bfb3e52fab3b183b19e711406a"
+    },
+    {
+      "path": "08_NEXT_STEP_V8_3/V8_CURRENT_STATE.md",
+      "bytes": 2052,
+      "sha256": "88900d98a153bb4dba04c9dee533a1e1cde0f6cb99e64c1caf57a6571c9eace9"
+    },
+    {
+      "path": "09_RESEARCH_LOG/DECISION_REGISTER.md",
+      "bytes": 1976,
+      "sha256": "1048c11dcc5abe7ff8f00ad9d9fa216e3a094f870ce8b22bdd987856e0c125fb"
+    },
+    {
+      "path": "09_RESEARCH_LOG/OPEN_ITEMS.md",
+      "bytes": 930,
+      "sha256": "25637ef2892c54890b69c8fa95b6b06c2aa7bc296d88bc88ce42682919e11f95"
+    },
+    {
+      "path": "09_RESEARCH_LOG/RESEARCH_LOG.md",
+      "bytes": 3410,
+      "sha256": "a45b7443b495b4d2d1eb35bed2f4ba299d1c422e175325b2b88051a46f364785"
+    },
+    {
+      "path": "09_RESEARCH_LOG/SOURCE_PROVENANCE.md",
+      "bytes": 2511,
+      "sha256": "5e869eebdf6b88888fc497ca25aa0796212222e04d1d5455b54ee668f3a6977e"
+    }
+  ]
+}
